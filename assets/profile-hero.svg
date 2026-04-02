@@ -1,100 +1,109 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">hrniux profile hero</title>
-  <desc id="desc">A neon-styled hero banner for the hrniux GitHub profile, featuring browser-native games, front-end experiments, and developer tooling.</desc>
+  <desc id="desc">A bold profile banner for hrniux featuring browser-native games, front-end experiments, and developer tooling in a modern showcase layout.</desc>
   <defs>
-    <linearGradient id="bg" x1="120" y1="40" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#061425"/>
-      <stop offset="0.45" stop-color="#0A1930"/>
-      <stop offset="1" stop-color="#050B16"/>
+    <linearGradient id="page" x1="82" y1="44" x2="1184" y2="618" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07192C"/>
+      <stop offset="0.42" stop-color="#0A1225"/>
+      <stop offset="1" stop-color="#050913"/>
     </linearGradient>
-    <linearGradient id="accent" x1="220" y1="150" x2="880" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="0.55" stop-color="#F59E0B"/>
+    <linearGradient id="heroType" x1="132" y1="164" x2="718" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
       <stop offset="1" stop-color="#34D399"/>
     </linearGradient>
-    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 120) rotate(39.2) scale(480 320)">
-      <stop stop-color="#38BDF8" stop-opacity="0.45"/>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 92) rotate(33) scale(360 240)">
+      <stop stop-color="#38BDF8" stop-opacity="0.52"/>
       <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowAmber" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1050 420) rotate(155) scale(420 260)">
-      <stop stop-color="#F59E0B" stop-opacity="0.36"/>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 458) rotate(146) scale(380 230)">
+      <stop stop-color="#F59E0B" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur" x="-120" y="-120" width="1520" height="880" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="40"/>
+    <linearGradient id="glass" x1="140" y1="116" x2="1142" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172235" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0C1629" stop-opacity="0.96"/>
+    </linearGradient>
+    <filter id="panelShadow" x="96" y="74" width="1088" height="508" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="28" stdDeviation="36" flood-color="#020817" flood-opacity="0.46"/>
     </filter>
-    <filter id="shadow" x="155" y="80" width="970" height="510" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="24" stdDeviation="36" flood-color="#020817" flood-opacity="0.45"/>
+    <filter id="softBlur" x="-100" y="-100" width="1480" height="840" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="36"/>
     </filter>
   </defs>
 
-  <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
-  <g filter="url(#blur)">
-    <ellipse cx="244" cy="122" rx="260" ry="170" fill="url(#glowBlue)"/>
-    <ellipse cx="1050" cy="430" rx="220" ry="150" fill="url(#glowAmber)"/>
+  <rect width="1280" height="640" rx="34" fill="url(#page)"/>
+
+  <g filter="url(#softBlur)">
+    <ellipse cx="236" cy="96" rx="300" ry="176" fill="url(#blueGlow)"/>
+    <ellipse cx="1094" cy="454" rx="250" ry="170" fill="url(#goldGlow)"/>
   </g>
 
-  <g opacity="0.14">
-    <path d="M0 104H1280" stroke="#D7E6F5"/>
-    <path d="M0 184H1280" stroke="#D7E6F5"/>
-    <path d="M0 264H1280" stroke="#D7E6F5"/>
-    <path d="M0 344H1280" stroke="#D7E6F5"/>
-    <path d="M0 424H1280" stroke="#D7E6F5"/>
-    <path d="M0 504H1280" stroke="#D7E6F5"/>
-    <path d="M120 0V640" stroke="#D7E6F5"/>
-    <path d="M280 0V640" stroke="#D7E6F5"/>
-    <path d="M440 0V640" stroke="#D7E6F5"/>
-    <path d="M600 0V640" stroke="#D7E6F5"/>
-    <path d="M760 0V640" stroke="#D7E6F5"/>
-    <path d="M920 0V640" stroke="#D7E6F5"/>
-    <path d="M1080 0V640" stroke="#D7E6F5"/>
+  <g opacity="0.12">
+    <path d="M0 86H1280" stroke="#E5EEF9"/>
+    <path d="M0 158H1280" stroke="#E5EEF9"/>
+    <path d="M0 230H1280" stroke="#E5EEF9"/>
+    <path d="M0 302H1280" stroke="#E5EEF9"/>
+    <path d="M0 374H1280" stroke="#E5EEF9"/>
+    <path d="M0 446H1280" stroke="#E5EEF9"/>
+    <path d="M0 518H1280" stroke="#E5EEF9"/>
+    <path d="M116 0V640" stroke="#E5EEF9"/>
+    <path d="M252 0V640" stroke="#E5EEF9"/>
+    <path d="M388 0V640" stroke="#E5EEF9"/>
+    <path d="M524 0V640" stroke="#E5EEF9"/>
+    <path d="M660 0V640" stroke="#E5EEF9"/>
+    <path d="M796 0V640" stroke="#E5EEF9"/>
+    <path d="M932 0V640" stroke="#E5EEF9"/>
+    <path d="M1068 0V640" stroke="#E5EEF9"/>
   </g>
 
-  <g filter="url(#shadow)">
-    <rect x="190" y="110" width="900" height="420" rx="28" fill="#091524" fill-opacity="0.82" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <rect x="214" y="136" width="852" height="372" rx="24" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <g filter="url(#panelShadow)">
+    <rect x="118" y="96" width="1044" height="460" rx="30" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <rect x="144" y="122" width="992" height="408" rx="24" fill="#1A2539" fill-opacity="0.62" stroke="#FFFFFF" stroke-opacity="0.06"/>
   </g>
 
-  <circle cx="254" cy="158" r="8" fill="#38BDF8"/>
-  <circle cx="278" cy="158" r="8" fill="#F59E0B"/>
-  <circle cx="302" cy="158" r="8" fill="#34D399"/>
+  <circle cx="178" cy="152" r="8.5" fill="#38BDF8"/>
+  <circle cx="204" cy="152" r="8.5" fill="#F59E0B"/>
+  <circle cx="230" cy="152" r="8.5" fill="#34D399"/>
 
-  <text x="246" y="204" fill="#7DD3FC" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="5.2">HRNIUX</text>
-  <text x="246" y="280" fill="url(#accent)" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">Browser-native games</text>
-  <text x="246" y="342" fill="#E6F2FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700">front-end experiments</text>
-  <text x="246" y="396" fill="#E6F2FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700">and developer tooling</text>
+  <text x="170" y="206" fill="#7DD3FC" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="6">HRNIUX</text>
+  <text x="170" y="256" fill="#DCEBFA" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.6">PLAYABLE SOFTWARE. SHARP FIRST IMPRESSIONS.</text>
 
-  <text x="246" y="452" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">
-    Playful, fast, and engineered to be forked.
+  <text x="170" y="326" fill="url(#heroType)" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">games, interfaces,</text>
+  <text x="170" y="394" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">and tools that</text>
+  <text x="170" y="458" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">earn attention.</text>
+
+  <text x="170" y="506" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">
+    Browser-native games, front-end systems, and practical workflows.
   </text>
 
   <g>
-    <rect x="246" y="482" width="168" height="22" rx="11" fill="#38BDF8" fill-opacity="0.18"/>
-    <text x="266" y="498" fill="#D8F4FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">HTML5 + Canvas</text>
-    <rect x="430" y="482" width="176" height="22" rx="11" fill="#F59E0B" fill-opacity="0.18"/>
-    <text x="452" y="498" fill="#FFE5BB" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Vanilla JavaScript</text>
-    <rect x="624" y="482" width="170" height="22" rx="11" fill="#34D399" fill-opacity="0.18"/>
-    <text x="646" y="498" fill="#D8FFEF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Creative tooling</text>
+    <rect x="860" y="148" width="240" height="104" rx="24" fill="#0B1830" fill-opacity="0.88" stroke="#7DD3FC" stroke-opacity="0.26"/>
+    <text x="886" y="196" fill="#8FDBFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">SIGNAL</text>
+    <text x="886" y="228" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">43 playable</text>
+    <text x="886" y="248" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">pages in the live collection</text>
   </g>
 
   <g>
-    <rect x="870" y="176" width="158" height="92" rx="20" fill="#091524" fill-opacity="0.8" stroke="#7DD3FC" stroke-opacity="0.28"/>
-    <text x="892" y="204" fill="#8FDBFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2">SIGNAL</text>
-    <text x="892" y="244" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">43</text>
-    <text x="892" y="264" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">playable pages</text>
+    <rect x="836" y="274" width="264" height="104" rx="24" fill="#0E1728" fill-opacity="0.9" stroke="#F59E0B" stroke-opacity="0.26"/>
+    <text x="862" y="308" fill="#FFD89A" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">FOCUS</text>
+    <text x="862" y="340" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">front-end shipping</text>
+    <text x="862" y="360" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">visual systems + browser playables</text>
   </g>
 
   <g>
-    <rect x="842" y="286" width="186" height="92" rx="20" fill="#091524" fill-opacity="0.8" stroke="#F59E0B" stroke-opacity="0.28"/>
-    <text x="864" y="314" fill="#FFD89A" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2">FOCUS</text>
-    <text x="864" y="354" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">5</text>
-    <text x="864" y="374" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">public repos</text>
+    <rect x="810" y="400" width="290" height="96" rx="24" fill="#0B1625" fill-opacity="0.9" stroke="#34D399" stroke-opacity="0.26"/>
+    <text x="836" y="432" fill="#9FF6D3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">LIVE</text>
+    <text x="836" y="466" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">demoCodex</text>
+    <text x="836" y="486" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">hrniux.github.io/demoCodex</text>
   </g>
 
   <g>
-    <rect x="800" y="396" width="228" height="92" rx="20" fill="#091524" fill-opacity="0.8" stroke="#34D399" stroke-opacity="0.28"/>
-    <text x="822" y="424" fill="#9FF6D3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2">LIVE</text>
-    <text x="822" y="460" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">demoCodex</text>
-    <text x="822" y="482" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">hrniux.github.io/demoCodex</text>
+    <rect x="170" y="548" width="172" height="24" rx="12" fill="#38BDF8" fill-opacity="0.18"/>
+    <text x="192" y="565" fill="#D8F4FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">HTML5 + Canvas</text>
+    <rect x="360" y="548" width="186" height="24" rx="12" fill="#F59E0B" fill-opacity="0.18"/>
+    <text x="384" y="565" fill="#FFE5BB" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Vanilla JavaScript</text>
+    <rect x="566" y="548" width="188" height="24" rx="12" fill="#34D399" fill-opacity="0.18"/>
+    <text x="591" y="565" fill="#D8FFEF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Pragmatic tooling</text>
   </g>
 </svg>
