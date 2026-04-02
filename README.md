@@ -1,7 +1,7 @@
 <div align="center">
   <img
-    src="https://raw.githubusercontent.com/hrniux/demoCodex/main/assets/images/github-social-preview.png"
-    alt="DemoCodex social preview"
+    src="./assets/profile-hero.svg"
+    alt="hrniux profile hero"
     width="100%"
   />
 
@@ -10,64 +10,118 @@
     <strong>Browser-native games, creative front-end experiments, and pragmatic developer tooling.</strong>
   </p>
   <p>
-    I build playful things that still feel engineered: vanilla JavaScript games, interactive demos,
-    fast prototype surfaces, and tooling that is actually usable in day-to-day workflows.
+    I build playful software that still feels engineered: direct-to-browser game experiences,
+    polished interactive demos, and workflow tools that remove setup friction instead of adding more.
   </p>
 
   <p>
     <a href="https://hrniux.github.io/demoCodex/">
-      <img alt="Live DemoCodex" src="https://img.shields.io/badge/Live-DemoCodex-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" />
+      <img alt="Live demo" src="https://img.shields.io/badge/Play-Live%20DemoCodex-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" />
     </a>
     <a href="https://github.com/hrniux/demoCodex">
-      <img alt="Main repo" src="https://img.shields.io/badge/Main%20Repo-demoCodex-111827?style=for-the-badge&logo=github&logoColor=white" />
+      <img alt="Main project" src="https://img.shields.io/badge/Main%20Project-demoCodex-111827?style=for-the-badge&logo=github&logoColor=white" />
     </a>
-    <img alt="Focus" src="https://img.shields.io/badge/Focus-Vanilla%20JS%20%2B%20HTML5%20Canvas-f59e0b?style=for-the-badge" />
-    <img alt="Location" src="https://img.shields.io/badge/Location-LA-22c55e?style=for-the-badge" />
+    <img alt="Focus" src="https://img.shields.io/badge/Focus-HTML5%20Canvas%20%2B%20Vanilla%20JS-f59e0b?style=for-the-badge" />
+    <img alt="Style" src="https://img.shields.io/badge/Style-Playable%20and%20Forkable-22c55e?style=for-the-badge" />
+  </p>
+
+  <p>
+    <a href="#launchpad">Launchpad</a> ·
+    <a href="#signature-projects">Signature Projects</a> ·
+    <a href="#proof-of-work">Proof of Work</a> ·
+    <a href="#currently-pushing">Currently Pushing</a>
   </p>
 </div>
 
-## What I Build
+## Launchpad
 
-- Browser-native mini games with tight gameplay loops and no framework overhead.
-- Interactive web demos that feel polished enough to share, not just inspect locally.
-- Reusable Codex and workflow utilities that reduce setup friction and speed up iteration.
-- Project pages that treat presentation, discoverability, and implementation quality as one system.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>What I Make</h3>
+      <p>
+        Small products with strong first impressions: mini games, visual demos, repo landing pages,
+        and tooling surfaces that are meant to be opened, played, shared, and studied.
+      </p>
+      <ul>
+        <li>Browser-native mini games with tight loops and low friction</li>
+        <li>Interactive front-end experiments with a clear visual point of view</li>
+        <li>Developer tooling and Codex workflow extensions that solve real local tasks</li>
+        <li>Project packaging that treats README, social preview, and homepage as one system</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>What You Should Click First</h3>
+      <ul>
+        <li><a href="https://hrniux.github.io/demoCodex/">Live DemoCodex</a> for the full playable collection</li>
+        <li><a href="https://github.com/hrniux/demoCodex">demoCodex repo</a> for source, structure, and browser tests</li>
+        <li><a href="https://github.com/hrniux/codex-skills">codex-skills</a> for reusable workflow extensions</li>
+        <li><a href="https://github.com/hrniux/demo">demo</a> for lightweight browser-first iteration</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-## Featured Work
+> I care about the click before the code review.  
+> If a repo is worth opening, it should look intentional the moment it loads.
 
-| Project | Why it stands out | Stack |
+## Signature Projects
+
+| Project | Why it pulls attention | Stack |
 | --- | --- | --- |
-| [DemoCodex](https://github.com/hrniux/demoCodex) | A public collection of 43 playable browser-native mini games and interactive experiments with a curated landing page, live GitHub Pages demo, and Chrome-only regression flow. | HTML, CSS, JavaScript, Canvas |
-| [codex-skills](https://github.com/hrniux/codex-skills) | A clean public repository for Codex skills, focused on practical workflow extensions instead of toy examples. | Markdown, workflow design |
-| [demo](https://github.com/hrniux/demo) | A lightweight HTML demo repository that shows fast iteration and direct-to-browser delivery. | HTML, CSS, JavaScript |
-| [gen](https://github.com/hrniux/gen) | A Go-based scaffold fork centered on API development ergonomics and out-of-the-box productivity. | Go, Gin |
+| [DemoCodex](https://github.com/hrniux/demoCodex) | A public collection of 43 playable browser-native mini games and interactive experiments, with a curated landing page, live GitHub Pages deployment, Chrome-only regression coverage, and repo packaging that feels like a product. | HTML, CSS, JavaScript, Canvas |
+| [codex-skills](https://github.com/hrniux/codex-skills) | A practical home for Codex workflow extensions. The value is operational, not decorative: repeatable local automation, clearer agent workflows, and less setup drag. | Markdown, workflow design |
+| [demo](https://github.com/hrniux/demo) | A lightweight browser-demo repo focused on fast iteration, direct delivery, and keeping the path from idea to visible result short. | HTML, CSS, JavaScript |
+| [gen](https://github.com/hrniux/gen) | A Go scaffold fork aimed at API development ergonomics and shipping speed. | Go, Gin |
 
-## Right Now
+## Proof Of Work
 
-```text
-- shipping browser-first mini game experiences
-- tightening repo presentation until it earns the click
-- treating README, social preview, and landing pages as product surfaces
-- keeping implementations simple enough to fork and study
-```
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Playable</h3>
+      <p><strong>43 live pages</strong></p>
+      <p>Not just screenshots or concepts. Open the repo, open the page, and it runs.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Polished</h3>
+      <p><strong>Landing-page thinking</strong></p>
+      <p>README, About, social preview, and GitHub Pages are treated as part of the product surface.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Reusable</h3>
+      <p><strong>Forkable code paths</strong></p>
+      <p>Projects are kept readable enough to borrow from, extend, and learn from without a framework maze.</p>
+    </td>
+  </tr>
+</table>
 
 ## GitHub Snapshot
 
 <div align="center">
   <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api?username=hrniux&show_icons=true&hide_border=true&title_color=38bdf8&icon_color=f59e0b&text_color=cbd5e1&bg_color=0b1220"
+    height="176"
+    src="https://github-readme-stats.vercel.app/api?username=hrniux&show_icons=true&hide_border=true&title_color=38bdf8&icon_color=f59e0b&text_color=dbeafe&bg_color=0b1220"
     alt="GitHub stats"
   />
   <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrniux&layout=compact&hide_border=true&title_color=38bdf8&text_color=cbd5e1&bg_color=0b1220"
+    height="176"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrniux&layout=compact&hide_border=true&title_color=38bdf8&text_color=dbeafe&bg_color=0b1220"
     alt="Top languages"
   />
 </div>
 
-## Start Here
+## Currently Pushing
 
-- Play the live collection: [hrniux.github.io/demoCodex](https://hrniux.github.io/demoCodex/)
-- Explore the main repo: [github.com/hrniux/demoCodex](https://github.com/hrniux/demoCodex)
-- Browse Codex workflow extensions: [github.com/hrniux/codex-skills](https://github.com/hrniux/codex-skills)
+```text
+- making GitHub surfaces feel like product surfaces
+- shipping browser-first game experiences with lower friction
+- tightening repo packaging until the first impression sells itself
+- keeping code simple enough to study, extend, and actually reuse
+```
+
+## Contact Surface
+
+- Main live experience: [hrniux.github.io/demoCodex](https://hrniux.github.io/demoCodex/)
+- Main source repository: [github.com/hrniux/demoCodex](https://github.com/hrniux/demoCodex)
+- Codex workflow extensions: [github.com/hrniux/codex-skills](https://github.com/hrniux/codex-skills)
