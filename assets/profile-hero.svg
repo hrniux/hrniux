@@ -67,35 +67,35 @@
   <circle cx="230" cy="152" r="8.5" fill="#34D399"/>
 
   <text x="170" y="206" fill="#7DD3FC" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="6">HRNIUX</text>
-  <text x="170" y="256" fill="#DCEBFA" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.6">PLAYABLE SOFTWARE. SHARP FIRST IMPRESSIONS.</text>
+  <text x="170" y="252" fill="#DCEBFA" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.6">PLAYABLE SOFTWARE. PRODUCT SURFACES. WORKFLOWS THAT SHIP.</text>
 
-  <text x="170" y="326" fill="url(#heroType)" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">games, interfaces,</text>
-  <text x="170" y="394" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">and tools that</text>
-  <text x="170" y="458" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">earn attention.</text>
+  <text x="170" y="318" fill="url(#heroType)" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">browser-native</text>
+  <text x="170" y="384" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">games and</text>
+  <text x="170" y="446" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">front-end tools.</text>
 
-  <text x="170" y="506" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">
-    Browser-native games, front-end systems, and practical workflows.
+  <text x="170" y="500" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500">
+    Built to get opened fast, shared easily, and forked without friction.
   </text>
 
   <g>
-    <rect x="860" y="148" width="240" height="104" rx="24" fill="#0B1830" fill-opacity="0.88" stroke="#7DD3FC" stroke-opacity="0.26"/>
-    <text x="886" y="196" fill="#8FDBFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">SIGNAL</text>
-    <text x="886" y="228" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">43 playable</text>
-    <text x="886" y="248" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">pages in the live collection</text>
+    <rect x="900" y="144" width="198" height="104" rx="24" fill="#0B1830" fill-opacity="0.88" stroke="#7DD3FC" stroke-opacity="0.26"/>
+    <text x="926" y="190" fill="#8FDBFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">SIGNAL</text>
+    <text x="926" y="222" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">43</text>
+    <text x="926" y="242" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">playable pages</text>
   </g>
 
   <g>
-    <rect x="836" y="274" width="264" height="104" rx="24" fill="#0E1728" fill-opacity="0.9" stroke="#F59E0B" stroke-opacity="0.26"/>
-    <text x="862" y="308" fill="#FFD89A" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">FOCUS</text>
-    <text x="862" y="340" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">front-end shipping</text>
-    <text x="862" y="360" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">visual systems + browser playables</text>
+    <rect x="866" y="272" width="232" height="104" rx="24" fill="#0E1728" fill-opacity="0.9" stroke="#F59E0B" stroke-opacity="0.26"/>
+    <text x="892" y="318" fill="#FFD89A" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">FOCUS</text>
+    <text x="892" y="350" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">front-end craft</text>
+    <text x="892" y="370" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">playables + workflow systems</text>
   </g>
 
   <g>
-    <rect x="810" y="400" width="290" height="96" rx="24" fill="#0B1625" fill-opacity="0.9" stroke="#34D399" stroke-opacity="0.26"/>
-    <text x="836" y="432" fill="#9FF6D3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">LIVE</text>
-    <text x="836" y="466" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">demoCodex</text>
-    <text x="836" y="486" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">hrniux.github.io/demoCodex</text>
+    <rect x="842" y="400" width="256" height="96" rx="24" fill="#0B1625" fill-opacity="0.9" stroke="#34D399" stroke-opacity="0.26"/>
+    <text x="868" y="432" fill="#9FF6D3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">LIVE</text>
+    <text x="868" y="466" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">demoCodex</text>
+    <text x="868" y="486" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">play it in the browser</text>
   </g>
 
   <g>
