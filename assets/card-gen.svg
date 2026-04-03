@@ -1,0 +1,23 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">gen repo card</title>
+  <desc id="desc">Pixel-style showcase card for the gen repository.</desc>
+  <rect width="720" height="420" fill="#07111F"/>
+  <rect x="28" y="28" width="664" height="364" fill="#2B1B18" stroke="#C26A3D" stroke-width="4"/>
+  <rect x="44" y="44" width="632" height="332" fill="#35211D"/>
+  <rect x="64" y="64" width="144" height="18" fill="#261613"/>
+  <text x="76" y="78" fill="#F7C59D" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">GO STARTER</text>
+  <rect x="64" y="104" width="206" height="82" fill="#261613"/>
+  <text x="76" y="164" fill="#F8FBFF" font-family="'Arial Black', Impact, sans-serif" font-size="82" font-weight="900">gen</text>
+  <rect x="64" y="204" width="196" height="20" fill="#261613"/>
+  <text x="76" y="220" fill="#FDBA74" font-family="'Courier New', monospace" font-size="18" font-weight="700">API SCAFFOLD</text>
+  <rect x="64" y="248" width="442" height="18" fill="#261613"/>
+  <text x="76" y="262" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="15" font-weight="700">CLEAN BOOTSTRAP FOR SHIPPING ENDPOINTS</text>
+  <rect x="64" y="304" width="98" height="22" fill="#4A3416" stroke="#F59E0B" stroke-width="2"/>
+  <text x="98" y="319" fill="#FFE8BF" font-family="'Courier New', monospace" font-size="14" font-weight="700">GO</text>
+  <rect x="178" y="304" width="178" height="22" fill="#3E261A" stroke="#FB923C" stroke-width="2"/>
+  <text x="198" y="319" fill="#FFE6D2" font-family="'Courier New', monospace" font-size="14" font-weight="700">DIRECT SETUP</text>
+  <rect x="520" y="236" width="124" height="104" fill="#321D19" stroke="#FB923C" stroke-width="4"/>
+  <text x="540" y="262" fill="#FED7AA" font-family="'Courier New', monospace" font-size="14" font-weight="700">SHIP</text>
+  <text x="540" y="306" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="38" font-weight="900">API</text>
+  <text x="540" y="324" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">starter path</text>
+</svg>

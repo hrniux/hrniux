@@ -7,11 +7,11 @@
 
   <h1>hrniux</h1>
   <p>
-    <strong>Browser-native games, front-end experiments, and pragmatic developer tooling.</strong>
+    <strong>Pixel-shaped launch surfaces for browser-native games, front-end craft, and pragmatic tooling.</strong>
   </p>
   <p>
-    I build things that earn attention fast and still hold up when you open the source:
-    playable browser experiences, polished interactive surfaces, and workflow tools that reduce friction.
+    I build things that open fast, look deliberate, and stay readable when you inspect the source:
+    playable browser experiences, interactive product surfaces, and workflow tools that reduce friction.
   </p>
 
   <p>
@@ -21,99 +21,79 @@
     <a href="https://github.com/hrniux/demoCodex">
       <img alt="Main Repo" src="https://img.shields.io/badge/Main%20Repo-demoCodex-111827?style=for-the-badge&logo=github&logoColor=white" />
     </a>
-    <img alt="Style" src="https://img.shields.io/badge/Style-Playable%20%2B%20Productized-f59e0b?style=for-the-badge" />
+    <img alt="Style" src="https://img.shields.io/badge/Style-Pixel%20Launchpad-f59e0b?style=for-the-badge" />
     <img alt="Focus" src="https://img.shields.io/badge/Focus-Vanilla%20JS%20%2B%20Canvas-22c55e?style=for-the-badge" />
   </p>
 
   <p>
-    <a href="#spotlight">Spotlight</a> ·
-    <a href="#signature-drops">Signature Drops</a> ·
+    <a href="#launchpad">Launchpad</a> ·
+    <a href="#signature-wall">Signature Wall</a> ·
     <a href="#why-it-lands">Why It Lands</a> ·
     <a href="#current-direction">Current Direction</a>
   </p>
 </div>
 
-## Spotlight
+## Launchpad
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>What I Ship</h3>
+      <h3>What Ships</h3>
       <p>
-        Projects that are easy to open, hard to ignore, and clear enough to fork.
-        The through-line is simple: strong first impression, direct usability, and code that still feels intentional underneath.
+        Browser-first work that makes sense at first glance and still feels clean under inspection.
+        The shared rule is simple: fast entry, strong silhouette, and source that invites reuse.
       </p>
       <ul>
-        <li>Browser-native mini games with low setup and tight loops</li>
-        <li>Interactive front-end demos with clear visual identity</li>
-        <li>Developer workflow tooling that helps locally, not just in theory</li>
-        <li>Repo packaging that treats README, About, social preview, and Pages as one surface</li>
+        <li>Browser-native mini games with tight loops and direct replay value</li>
+        <li>Interactive front-end surfaces with a deliberate visual identity</li>
+        <li>Workflow tooling that helps locally instead of adding ceremony</li>
+        <li>GitHub packaging that treats README, About, Pages, and previews as one launch surface</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>Where To Click First</h3>
+      <h3>Open First</h3>
       <ul>
-        <li><a href="https://hrniux.github.io/demoCodex/">Live DemoCodex</a> for the full browser-native collection</li>
-        <li><a href="https://github.com/hrniux/demoCodex">demoCodex</a> for source, tests, and the strongest public showcase</li>
+        <li><a href="https://hrniux.github.io/demoCodex/">Live DemoCodex</a> for the strongest public showcase</li>
+        <li><a href="https://github.com/hrniux/demoCodex">demoCodex</a> for playable pages, browser tests, and packaging work</li>
         <li><a href="https://github.com/hrniux/codex-skills">codex-skills</a> for reusable Codex workflow extensions</li>
-        <li><a href="https://github.com/hrniux/demo">demo</a> for lightweight browser-first iteration</li>
+        <li><a href="https://github.com/hrniux/demo">demo</a> for fast browser-first iteration</li>
       </ul>
     </td>
   </tr>
 </table>
 
-> If a repository is worth opening, it should look deliberate before the first scroll.
+> If a repository is worth opening, it should already feel intentional before the first scroll.
 
-## Signature Drops
+## Signature Wall
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/hrniux/demoCodex">DemoCodex</a></h3>
-      <p><strong>43 playable browser-native pages.</strong></p>
-      <p>
-        A collection of mini games, pixel-art experiments, and interactive demos with a curated landing page,
-        live GitHub Pages deployment, and Chrome-only browser regression flow.
-      </p>
-      <p>
-        <img alt="Pages" src="https://img.shields.io/badge/pages-43-0ea5e9?style=flat-square" />
-        <img alt="Curated picks" src="https://img.shields.io/badge/curated-37-22c55e?style=flat-square" />
-        <img alt="Stack" src="https://img.shields.io/badge/stack-vanilla%20js%20%2B%20canvas-f59e0b?style=flat-square" />
-      </p>
+      <a href="https://github.com/hrniux/demoCodex">
+        <img src="./assets/card-demoCodex.svg" alt="demoCodex project card" width="100%" />
+      </a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/hrniux/codex-skills">codex-skills</a></h3>
-      <p><strong>Operational workflow extensions.</strong></p>
-      <p>
-        A public repository for Codex skills built around practical local workflows, automation,
-        and reusable instructions that save time instead of adding ceremony.
-      </p>
-      <p>
-        <img alt="Type" src="https://img.shields.io/badge/type-skills-111827?style=flat-square" />
-        <img alt="Use" src="https://img.shields.io/badge/use-practical-38bdf8?style=flat-square" />
-        <img alt="Style" src="https://img.shields.io/badge/style-reusable-22c55e?style=flat-square" />
-      </p>
+      <a href="https://github.com/hrniux/codex-skills">
+        <img src="./assets/card-codex-skills.svg" alt="codex-skills project card" width="100%" />
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/hrniux/demo">demo</a></h3>
-      <p><strong>Fast browser-first iteration.</strong></p>
-      <p>
-        Lightweight HTML demos with a short path from idea to visible output,
-        optimized for shipping small things that can be opened immediately.
-      </p>
+      <a href="https://github.com/hrniux/demo">
+        <img src="./assets/card-demo.svg" alt="demo project card" width="100%" />
+      </a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/hrniux/gen">gen</a></h3>
-      <p><strong>Go scaffold fork for API speed.</strong></p>
-      <p>
-        A Go-based scaffold focused on development ergonomics,
-        keeping the setup-to-endpoint path direct and practical.
-      </p>
+      <a href="https://github.com/hrniux/gen">
+        <img src="./assets/card-gen.svg" alt="gen project card" width="100%" />
+      </a>
     </td>
   </tr>
 </table>
+
+Each card is wired to a repo I expect people to open immediately, not just skim and leave.
 
 ## Why It Lands
 
@@ -122,17 +102,17 @@
     <td width="33%" valign="top">
       <h3>Fast Hook</h3>
       <p><strong>Open it and it runs.</strong></p>
-      <p>Most surfaces are built to pay off immediately rather than ask for setup, context, or patience.</p>
+      <p>Most surfaces pay off quickly instead of asking for setup, context, or patience.</p>
     </td>
     <td width="33%" valign="top">
       <h3>Visual Direction</h3>
-      <p><strong>Not just code, but packaging.</strong></p>
-      <p>README, About, social preview, GitHub Pages, and hero assets all push the same identity.</p>
+      <p><strong>Packaging is part of the work.</strong></p>
+      <p>The README, About, hero art, Pages site, and repo descriptions all tell the same story.</p>
     </td>
     <td width="33%" valign="top">
       <h3>Fork Value</h3>
       <p><strong>Readable under the hood.</strong></p>
-      <p>The implementation stays simple enough to study, remix, and actually reuse.</p>
+      <p>The code stays simple enough to study, remix, and actually reuse.</p>
     </td>
   </tr>
 </table>
@@ -154,12 +134,10 @@
 
 ## Current Direction
 
-```text
-- making GitHub surfaces feel like product launches
-- shipping browser-native experiences with stronger replay value
-- keeping implementation clean while presentation gets bolder
-- turning repos into things people want to click before they want to audit
-```
+- turning GitHub surfaces into product launches instead of plain repo pages
+- shipping browser-native experiences with stronger replay and stronger packaging
+- keeping the source clean while the presentation gets more memorable
+- building things people want to click before they want to audit
 
 ## Live Surface
 

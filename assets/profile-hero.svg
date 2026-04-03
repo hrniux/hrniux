@@ -1,109 +1,82 @@
-<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">hrniux profile hero</title>
-  <desc id="desc">A bold profile banner for hrniux featuring browser-native games, front-end experiments, and developer tooling in a modern showcase layout.</desc>
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">hrniux pixel profile hero</title>
+  <desc id="desc">A pixel-style GitHub profile banner for hrniux featuring browser-native games and front-end tools in a chunky arcade-like layout.</desc>
   <defs>
-    <linearGradient id="page" x1="82" y1="44" x2="1184" y2="618" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07192C"/>
-      <stop offset="0.42" stop-color="#0A1225"/>
-      <stop offset="1" stop-color="#050913"/>
-    </linearGradient>
-    <linearGradient id="heroType" x1="132" y1="164" x2="718" y2="366" gradientUnits="userSpaceOnUse">
+    <linearGradient id="headline" x1="180" y1="210" x2="800" y2="380" gradientUnits="userSpaceOnUse">
       <stop stop-color="#7DD3FC"/>
-      <stop offset="0.5" stop-color="#F59E0B"/>
-      <stop offset="1" stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#A3E635"/>
     </linearGradient>
-    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 92) rotate(33) scale(360 240)">
-      <stop stop-color="#38BDF8" stop-opacity="0.52"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 458) rotate(146) scale(380 230)">
-      <stop stop-color="#F59E0B" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="glass" x1="140" y1="116" x2="1142" y2="550" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#172235" stop-opacity="0.96"/>
-      <stop offset="1" stop-color="#0C1629" stop-opacity="0.96"/>
-    </linearGradient>
-    <filter id="panelShadow" x="96" y="74" width="1088" height="508" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="28" stdDeviation="36" flood-color="#020817" flood-opacity="0.46"/>
-    </filter>
-    <filter id="softBlur" x="-100" y="-100" width="1480" height="840" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="36"/>
-    </filter>
+    <pattern id="grid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M0 0H96V96" stroke="#8CA3C9" stroke-opacity="0.18" stroke-width="2"/>
+      <path d="M0 48H96" stroke="#8CA3C9" stroke-opacity="0.12" stroke-width="2"/>
+      <path d="M48 0V96" stroke="#8CA3C9" stroke-opacity="0.12" stroke-width="2"/>
+    </pattern>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="none"/>
+      <rect width="4" height="4" fill="#9BC3FF" fill-opacity="0.12"/>
+    </pattern>
   </defs>
 
-  <rect width="1280" height="640" rx="34" fill="url(#page)"/>
+  <rect width="1280" height="640" fill="#040B16"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect x="64" y="64" width="432" height="224" fill="#123A5A" fill-opacity="0.54"/>
+  <rect x="992" y="352" width="224" height="192" fill="#4A2F14" fill-opacity="0.44"/>
 
-  <g filter="url(#softBlur)">
-    <ellipse cx="236" cy="96" rx="300" ry="176" fill="url(#blueGlow)"/>
-    <ellipse cx="1094" cy="454" rx="250" ry="170" fill="url(#goldGlow)"/>
-  </g>
+  <rect x="104" y="96" width="1072" height="448" fill="#091321" stroke="#2B456D" stroke-width="4"/>
+  <rect x="120" y="112" width="1040" height="416" fill="#101D33" stroke="#1F3353" stroke-width="4"/>
+  <rect x="136" y="128" width="1008" height="384" fill="#162338"/>
+  <rect x="136" y="128" width="1008" height="384" fill="url(#dots)"/>
 
-  <g opacity="0.12">
-    <path d="M0 86H1280" stroke="#E5EEF9"/>
-    <path d="M0 158H1280" stroke="#E5EEF9"/>
-    <path d="M0 230H1280" stroke="#E5EEF9"/>
-    <path d="M0 302H1280" stroke="#E5EEF9"/>
-    <path d="M0 374H1280" stroke="#E5EEF9"/>
-    <path d="M0 446H1280" stroke="#E5EEF9"/>
-    <path d="M0 518H1280" stroke="#E5EEF9"/>
-    <path d="M116 0V640" stroke="#E5EEF9"/>
-    <path d="M252 0V640" stroke="#E5EEF9"/>
-    <path d="M388 0V640" stroke="#E5EEF9"/>
-    <path d="M524 0V640" stroke="#E5EEF9"/>
-    <path d="M660 0V640" stroke="#E5EEF9"/>
-    <path d="M796 0V640" stroke="#E5EEF9"/>
-    <path d="M932 0V640" stroke="#E5EEF9"/>
-    <path d="M1068 0V640" stroke="#E5EEF9"/>
-  </g>
+  <rect x="168" y="160" width="14" height="14" fill="#38BDF8"/>
+  <rect x="192" y="160" width="14" height="14" fill="#F59E0B"/>
+  <rect x="216" y="160" width="14" height="14" fill="#34D399"/>
 
-  <g filter="url(#panelShadow)">
-    <rect x="118" y="96" width="1044" height="460" rx="30" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.1"/>
-    <rect x="144" y="122" width="992" height="408" rx="24" fill="#1A2539" fill-opacity="0.62" stroke="#FFFFFF" stroke-opacity="0.06"/>
-  </g>
+  <rect x="164" y="198" width="300" height="20" fill="#0B1730"/>
+  <text x="176" y="213" fill="#8FDBFF" font-family="'Courier New', monospace" font-size="18" font-weight="700" letter-spacing="4">HRNIUX // PLAYER ONE BUILD SHELF</text>
 
-  <circle cx="178" cy="152" r="8.5" fill="#38BDF8"/>
-  <circle cx="204" cy="152" r="8.5" fill="#F59E0B"/>
-  <circle cx="230" cy="152" r="8.5" fill="#34D399"/>
+  <rect x="164" y="238" width="416" height="18" fill="#0E1A2C"/>
+  <text x="176" y="252" fill="#D9E7FF" font-family="'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="2">PIXEL-SHAPED LAUNCH SURFACES FOR PLAYABLE SOFTWARE</text>
 
-  <text x="170" y="206" fill="#7DD3FC" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="6">HRNIUX</text>
-  <text x="170" y="252" fill="#DCEBFA" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.6">PLAYABLE SOFTWARE. PRODUCT SURFACES. WORKFLOWS THAT SHIP.</text>
+  <rect x="166" y="278" width="646" height="84" fill="#0A1426"/>
+  <text x="176" y="340" fill="url(#headline)" font-family="'Arial Black', Impact, sans-serif" font-size="78" font-weight="900">browser-native</text>
 
-  <text x="170" y="318" fill="url(#heroType)" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">browser-native</text>
-  <text x="170" y="384" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">games and</text>
-  <text x="170" y="446" fill="#EAF1FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">front-end tools.</text>
+  <rect x="166" y="362" width="462" height="78" fill="#0A1426"/>
+  <text x="176" y="420" fill="#EFF6FF" font-family="'Arial Black', Impact, sans-serif" font-size="72" font-weight="900">games +</text>
 
-  <text x="170" y="500" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500">
-    Built to get opened fast, shared easily, and forked without friction.
-  </text>
+  <rect x="166" y="440" width="612" height="78" fill="#0A1426"/>
+  <text x="176" y="498" fill="#EFF6FF" font-family="'Arial Black', Impact, sans-serif" font-size="70" font-weight="900">front-end tools</text>
 
-  <g>
-    <rect x="900" y="144" width="198" height="104" rx="24" fill="#0B1830" fill-opacity="0.88" stroke="#7DD3FC" stroke-opacity="0.26"/>
-    <text x="926" y="190" fill="#8FDBFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">SIGNAL</text>
-    <text x="926" y="222" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">43</text>
-    <text x="926" y="242" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">playable pages</text>
-  </g>
+  <rect x="166" y="534" width="616" height="22" fill="#0A1426"/>
+  <text x="176" y="550" fill="#BFD0E3" font-family="'Courier New', monospace" font-size="18" font-weight="700" letter-spacing="1.2">OPEN FAST. LOOK DELIBERATE. FORK WITHOUT FRICTION.</text>
 
-  <g>
-    <rect x="866" y="272" width="232" height="104" rx="24" fill="#0E1728" fill-opacity="0.9" stroke="#F59E0B" stroke-opacity="0.26"/>
-    <text x="892" y="318" fill="#FFD89A" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">FOCUS</text>
-    <text x="892" y="350" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">front-end craft</text>
-    <text x="892" y="370" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">playables + workflow systems</text>
-  </g>
+  <rect x="864" y="148" width="224" height="100" fill="#0B1730" stroke="#4D8BFF" stroke-width="4"/>
+  <rect x="876" y="160" width="200" height="76" fill="#12213D"/>
+  <text x="892" y="184" fill="#8FDBFF" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">PAGES</text>
+  <text x="892" y="224" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="44" font-weight="900">43</text>
+  <text x="980" y="224" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="18" font-weight="700">live units</text>
 
-  <g>
-    <rect x="842" y="400" width="256" height="96" rx="24" fill="#0B1625" fill-opacity="0.9" stroke="#34D399" stroke-opacity="0.26"/>
-    <text x="868" y="432" fill="#9FF6D3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">LIVE</text>
-    <text x="868" y="466" fill="#FFFFFF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">demoCodex</text>
-    <text x="868" y="486" fill="#BFD0E3" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">play it in the browser</text>
-  </g>
+  <rect x="840" y="278" width="248" height="100" fill="#171321" stroke="#F59E0B" stroke-width="4"/>
+  <rect x="852" y="290" width="224" height="76" fill="#201A27"/>
+  <text x="868" y="314" fill="#FFD89A" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">MODE</text>
+  <text x="868" y="348" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="32" font-weight="900">front-end craft</text>
+  <text x="868" y="362" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">playables + workflow systems</text>
 
-  <g>
-    <rect x="170" y="548" width="172" height="24" rx="12" fill="#38BDF8" fill-opacity="0.18"/>
-    <text x="192" y="565" fill="#D8F4FF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">HTML5 + Canvas</text>
-    <rect x="360" y="548" width="186" height="24" rx="12" fill="#F59E0B" fill-opacity="0.18"/>
-    <text x="384" y="565" fill="#FFE5BB" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Vanilla JavaScript</text>
-    <rect x="566" y="548" width="188" height="24" rx="12" fill="#34D399" fill-opacity="0.18"/>
-    <text x="591" y="565" fill="#D8FFEF" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Pragmatic tooling</text>
-  </g>
+  <rect x="816" y="408" width="272" height="104" fill="#0A1622" stroke="#34D399" stroke-width="4"/>
+  <rect x="828" y="420" width="248" height="80" fill="#102131"/>
+  <text x="844" y="444" fill="#A7F3D0" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">LIVE</text>
+  <text x="844" y="478" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="34" font-weight="900">demoCodex</text>
+  <text x="844" y="492" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">hrniux.github.io/demoCodex</text>
+
+  <rect x="166" y="580" width="184" height="20" fill="#13324A" stroke="#38BDF8" stroke-width="2"/>
+  <text x="182" y="594" fill="#DBF4FF" font-family="'Courier New', monospace" font-size="14" font-weight="700">HTML5 + CANVAS</text>
+  <rect x="364" y="580" width="220" height="20" fill="#4A3416" stroke="#F59E0B" stroke-width="2"/>
+  <text x="382" y="594" fill="#FFE8BF" font-family="'Courier New', monospace" font-size="14" font-weight="700">VANILLA JAVASCRIPT</text>
+  <rect x="598" y="580" width="214" height="20" fill="#16392F" stroke="#34D399" stroke-width="2"/>
+  <text x="618" y="594" fill="#D8FFEF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PRACTICAL TOOLING</text>
+
+  <rect x="108" y="96" width="12" height="12" fill="#38BDF8"/>
+  <rect x="1164" y="96" width="12" height="12" fill="#38BDF8"/>
+  <rect x="108" y="532" width="12" height="12" fill="#F59E0B"/>
+  <rect x="1164" y="532" width="12" height="12" fill="#34D399"/>
 </svg>

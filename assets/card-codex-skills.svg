@@ -1,0 +1,23 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">codex-skills repo card</title>
+  <desc id="desc">Pixel-style showcase card for the codex-skills repository.</desc>
+  <rect width="720" height="420" fill="#07111F"/>
+  <rect x="28" y="28" width="664" height="364" fill="#171829" stroke="#5A66B8" stroke-width="4"/>
+  <rect x="44" y="44" width="632" height="332" fill="#1C1E32"/>
+  <rect x="64" y="64" width="168" height="18" fill="#121320"/>
+  <text x="76" y="78" fill="#B7C1FF" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">WORKFLOW PACK</text>
+  <rect x="64" y="104" width="536" height="82" fill="#121320"/>
+  <text x="76" y="164" fill="#F8FBFF" font-family="'Arial Black', Impact, sans-serif" font-size="64" font-weight="900">codex-skills</text>
+  <rect x="64" y="204" width="244" height="20" fill="#121320"/>
+  <text x="76" y="220" fill="#C4B5FD" font-family="'Courier New', monospace" font-size="18" font-weight="700">CODEX LOCAL OPS</text>
+  <rect x="64" y="248" width="464" height="18" fill="#121320"/>
+  <text x="76" y="262" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="15" font-weight="700">REUSABLE SKILLS + DELIVERY HELPERS</text>
+  <rect x="64" y="304" width="160" height="22" fill="#252545" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="82" y="319" fill="#E9DDFF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PUBLIC REPO</text>
+  <rect x="240" y="304" width="152" height="22" fill="#0F3641" stroke="#22D3EE" stroke-width="2"/>
+  <text x="260" y="319" fill="#DAFBFF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PRACTICAL</text>
+  <rect x="520" y="236" width="124" height="104" fill="#171C34" stroke="#8B5CF6" stroke-width="4"/>
+  <text x="540" y="262" fill="#DDD6FE" font-family="'Courier New', monospace" font-size="14" font-weight="700">TYPE</text>
+  <text x="540" y="306" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="34" font-weight="900">SKILL</text>
+  <text x="540" y="324" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">extensions</text>
+</svg>

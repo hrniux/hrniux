@@ -1,0 +1,23 @@
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">demo repo card</title>
+  <desc id="desc">Pixel-style showcase card for the demo repository.</desc>
+  <rect width="720" height="420" fill="#07111F"/>
+  <rect x="28" y="28" width="664" height="364" fill="#17252A" stroke="#2C8B8A" stroke-width="4"/>
+  <rect x="44" y="44" width="632" height="332" fill="#183238"/>
+  <rect x="64" y="64" width="160" height="18" fill="#112026"/>
+  <text x="76" y="78" fill="#9CF6E8" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">BROWSER LAB</text>
+  <rect x="64" y="104" width="270" height="82" fill="#112026"/>
+  <text x="76" y="164" fill="#F8FBFF" font-family="'Arial Black', Impact, sans-serif" font-size="74" font-weight="900">demo</text>
+  <rect x="64" y="204" width="264" height="20" fill="#112026"/>
+  <text x="76" y="220" fill="#6EE7B7" font-family="'Courier New', monospace" font-size="18" font-weight="700">FAST OUTPUT LOOPS</text>
+  <rect x="64" y="248" width="470" height="18" fill="#112026"/>
+  <text x="76" y="262" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="15" font-weight="700">SMALL SURFACES, SHORT IDEA-TO-SCREEN PATH</text>
+  <rect x="64" y="304" width="148" height="22" fill="#16392F" stroke="#34D399" stroke-width="2"/>
+  <text x="82" y="319" fill="#D8FFEF" font-family="'Courier New', monospace" font-size="14" font-weight="700">HTML FIRST</text>
+  <rect x="228" y="304" width="170" height="22" fill="#17323A" stroke="#2DD4BF" stroke-width="2"/>
+  <text x="248" y="319" fill="#D6FFFB" font-family="'Courier New', monospace" font-size="14" font-weight="700">LIGHTWEIGHT</text>
+  <rect x="520" y="236" width="124" height="104" fill="#10242B" stroke="#2DD4BF" stroke-width="4"/>
+  <text x="540" y="262" fill="#A7F3D0" font-family="'Courier New', monospace" font-size="14" font-weight="700">PATH</text>
+  <text x="540" y="306" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="38" font-weight="900">FAST</text>
+  <text x="540" y="324" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">browser loop</text>
+</svg>
