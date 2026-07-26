@@ -1,82 +1,60 @@
-<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
-  <title id="title">hrniux pixel profile hero</title>
-  <desc id="desc">A pixel-style GitHub profile banner for hrniux featuring browser-native games and front-end tools in a chunky arcade-like layout.</desc>
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">hrniu — systems with clarity and character</title>
+  <desc id="desc">GitHub profile banner for hrniu, focused on agent systems, browser products, and developer tooling.</desc>
   <defs>
-    <linearGradient id="headline" x1="180" y1="210" x2="800" y2="380" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7DD3FC"/>
-      <stop offset="0.5" stop-color="#FBBF24"/>
-      <stop offset="1" stop-color="#A3E635"/>
+    <linearGradient id="background" x1="64" y1="32" x2="1216" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091426"/>
+      <stop offset="0.54" stop-color="#0C1A2C"/>
+      <stop offset="1" stop-color="#101A24"/>
     </linearGradient>
-    <pattern id="grid" width="96" height="96" patternUnits="userSpaceOnUse">
-      <path d="M0 0H96V96" stroke="#8CA3C9" stroke-opacity="0.18" stroke-width="2"/>
-      <path d="M0 48H96" stroke="#8CA3C9" stroke-opacity="0.12" stroke-width="2"/>
-      <path d="M48 0V96" stroke="#8CA3C9" stroke-opacity="0.12" stroke-width="2"/>
-    </pattern>
-    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
-      <rect width="16" height="16" fill="none"/>
-      <rect width="4" height="4" fill="#9BC3FF" fill-opacity="0.12"/>
+    <linearGradient id="accent" x1="94" y1="112" x2="760" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#B7C8E6" stroke-opacity="0.07"/>
     </pattern>
   </defs>
 
-  <rect width="1280" height="640" fill="#040B16"/>
-  <rect width="1280" height="640" fill="url(#grid)"/>
-  <rect x="64" y="64" width="432" height="224" fill="#123A5A" fill-opacity="0.54"/>
-  <rect x="992" y="352" width="224" height="192" fill="#4A2F14" fill-opacity="0.44"/>
+  <rect width="1280" height="420" rx="24" fill="url(#background)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <path d="M0 332C236 274 394 388 646 325C849 274 1041 206 1280 264V420H0V332Z" fill="#17253A" fill-opacity="0.46"/>
+  <circle cx="1136" cy="76" r="152" fill="#2563EB" fill-opacity="0.07"/>
+  <circle cx="1178" cy="364" r="196" fill="#14B8A6" fill-opacity="0.05"/>
 
-  <rect x="104" y="96" width="1072" height="448" fill="#091321" stroke="#2B456D" stroke-width="4"/>
-  <rect x="120" y="112" width="1040" height="416" fill="#101D33" stroke="#1F3353" stroke-width="4"/>
-  <rect x="136" y="128" width="1008" height="384" fill="#162338"/>
-  <rect x="136" y="128" width="1008" height="384" fill="url(#dots)"/>
+  <rect x="72" y="60" width="7" height="44" rx="3.5" fill="#67E8F9"/>
+  <text x="98" y="81" fill="#DCE8FA" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" letter-spacing="3">HRNIU</text>
+  <text x="98" y="103" fill="#7F95B5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" letter-spacing="2">@OPANAI404</text>
 
-  <rect x="168" y="160" width="14" height="14" fill="#38BDF8"/>
-  <rect x="192" y="160" width="14" height="14" fill="#F59E0B"/>
-  <rect x="216" y="160" width="14" height="14" fill="#34D399"/>
+  <text x="72" y="179" fill="#F7FAFF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="58" font-weight="760">Systems with</text>
+  <text x="72" y="247" fill="url(#accent)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="58" font-weight="760">clarity and character.</text>
+  <text x="74" y="294" fill="#AFC0D9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="500">Explainable agents · browser-native products · practical tooling</text>
+  <text x="74" y="336" fill="#7187A8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="500">Clear architecture. Fast feedback. Verifiable delivery.</text>
 
-  <rect x="164" y="198" width="300" height="20" fill="#0B1730"/>
-  <text x="176" y="213" fill="#8FDBFF" font-family="'Courier New', monospace" font-size="18" font-weight="700" letter-spacing="4">HRNIUX // PLAYER ONE BUILD SHELF</text>
+  <g>
+    <rect x="838" y="64" width="370" height="84" rx="16" fill="#101E33" stroke="#2A466B"/>
+    <circle cx="880" cy="106" r="18" fill="#172E4D"/>
+    <path d="M871 106H889M880 97V115" stroke="#67E8F9" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="914" y="100" fill="#F4F8FF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700">Agent systems</text>
+    <text x="914" y="124" fill="#8298B8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">RAG · MCP · rules · audit trails</text>
+  </g>
 
-  <rect x="164" y="238" width="416" height="18" fill="#0E1A2C"/>
-  <text x="176" y="252" fill="#D9E7FF" font-family="'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="2">PIXEL-SHAPED LAUNCH SURFACES FOR PLAYABLE SOFTWARE</text>
+  <g>
+    <rect x="810" y="168" width="398" height="84" rx="16" fill="#101E33" stroke="#31436C"/>
+    <circle cx="852" cy="210" r="18" fill="#25264B"/>
+    <path d="M844 214L852 202L860 214M846 210H858" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="886" y="204" fill="#F4F8FF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700">Browser products</text>
+    <text x="886" y="228" fill="#8298B8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">Canvas · interaction · accessible UI</text>
+  </g>
 
-  <rect x="166" y="278" width="646" height="84" fill="#0A1426"/>
-  <text x="176" y="340" fill="url(#headline)" font-family="'Arial Black', Impact, sans-serif" font-size="78" font-weight="900">browser-native</text>
+  <g>
+    <rect x="838" y="272" width="370" height="84" rx="16" fill="#101E33" stroke="#26505B"/>
+    <circle cx="880" cy="314" r="18" fill="#13343B"/>
+    <path d="M871 310L877 316L889 304M871 321H889" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="914" y="308" fill="#F4F8FF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700">Developer tooling</text>
+    <text x="914" y="332" fill="#8298B8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">Codex · automation · repeatable delivery</text>
+  </g>
 
-  <rect x="166" y="362" width="462" height="78" fill="#0A1426"/>
-  <text x="176" y="420" fill="#EFF6FF" font-family="'Arial Black', Impact, sans-serif" font-size="72" font-weight="900">games +</text>
-
-  <rect x="166" y="440" width="612" height="78" fill="#0A1426"/>
-  <text x="176" y="498" fill="#EFF6FF" font-family="'Arial Black', Impact, sans-serif" font-size="70" font-weight="900">front-end tools</text>
-
-  <rect x="166" y="534" width="616" height="22" fill="#0A1426"/>
-  <text x="176" y="550" fill="#BFD0E3" font-family="'Courier New', monospace" font-size="18" font-weight="700" letter-spacing="1.2">OPEN FAST. LOOK DELIBERATE. FORK WITHOUT FRICTION.</text>
-
-  <rect x="864" y="148" width="224" height="100" fill="#0B1730" stroke="#4D8BFF" stroke-width="4"/>
-  <rect x="876" y="160" width="200" height="76" fill="#12213D"/>
-  <text x="892" y="184" fill="#8FDBFF" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">PAGES</text>
-  <text x="892" y="224" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="44" font-weight="900">43</text>
-  <text x="980" y="224" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="18" font-weight="700">live units</text>
-
-  <rect x="840" y="278" width="248" height="100" fill="#171321" stroke="#F59E0B" stroke-width="4"/>
-  <rect x="852" y="290" width="224" height="76" fill="#201A27"/>
-  <text x="868" y="314" fill="#FFD89A" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">MODE</text>
-  <text x="868" y="348" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="32" font-weight="900">front-end craft</text>
-  <text x="868" y="362" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">playables + workflow systems</text>
-
-  <rect x="816" y="408" width="272" height="104" fill="#0A1622" stroke="#34D399" stroke-width="4"/>
-  <rect x="828" y="420" width="248" height="80" fill="#102131"/>
-  <text x="844" y="444" fill="#A7F3D0" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">LIVE</text>
-  <text x="844" y="478" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="34" font-weight="900">demoCodex</text>
-  <text x="844" y="492" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">hrniux.github.io/demoCodex</text>
-
-  <rect x="166" y="580" width="184" height="20" fill="#13324A" stroke="#38BDF8" stroke-width="2"/>
-  <text x="182" y="594" fill="#DBF4FF" font-family="'Courier New', monospace" font-size="14" font-weight="700">HTML5 + CANVAS</text>
-  <rect x="364" y="580" width="220" height="20" fill="#4A3416" stroke="#F59E0B" stroke-width="2"/>
-  <text x="382" y="594" fill="#FFE8BF" font-family="'Courier New', monospace" font-size="14" font-weight="700">VANILLA JAVASCRIPT</text>
-  <rect x="598" y="580" width="214" height="20" fill="#16392F" stroke="#34D399" stroke-width="2"/>
-  <text x="618" y="594" fill="#D8FFEF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PRACTICAL TOOLING</text>
-
-  <rect x="108" y="96" width="12" height="12" fill="#38BDF8"/>
-  <rect x="1164" y="96" width="12" height="12" fill="#38BDF8"/>
-  <rect x="108" y="532" width="12" height="12" fill="#F59E0B"/>
-  <rect x="1164" y="532" width="12" height="12" fill="#34D399"/>
+  <rect x="24" y="24" width="1232" height="372" rx="20" stroke="#91A6C5" stroke-opacity="0.13"/>
 </svg>

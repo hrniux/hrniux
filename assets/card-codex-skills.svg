@@ -1,23 +1,30 @@
-<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
-  <title id="title">codex-skills repo card</title>
-  <desc id="desc">Pixel-style showcase card for the codex-skills repository.</desc>
-  <rect width="720" height="420" fill="#07111F"/>
-  <rect x="28" y="28" width="664" height="364" fill="#171829" stroke="#5A66B8" stroke-width="4"/>
-  <rect x="44" y="44" width="632" height="332" fill="#1C1E32"/>
-  <rect x="64" y="64" width="168" height="18" fill="#121320"/>
-  <text x="76" y="78" fill="#B7C1FF" font-family="'Courier New', monospace" font-size="16" font-weight="700" letter-spacing="2">WORKFLOW PACK</text>
-  <rect x="64" y="104" width="536" height="82" fill="#121320"/>
-  <text x="76" y="164" fill="#F8FBFF" font-family="'Arial Black', Impact, sans-serif" font-size="64" font-weight="900">codex-skills</text>
-  <rect x="64" y="204" width="244" height="20" fill="#121320"/>
-  <text x="76" y="220" fill="#C4B5FD" font-family="'Courier New', monospace" font-size="18" font-weight="700">CODEX LOCAL OPS</text>
-  <rect x="64" y="248" width="464" height="18" fill="#121320"/>
-  <text x="76" y="262" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="15" font-weight="700">REUSABLE SKILLS + DELIVERY HELPERS</text>
-  <rect x="64" y="304" width="160" height="22" fill="#252545" stroke="#8B5CF6" stroke-width="2"/>
-  <text x="82" y="319" fill="#E9DDFF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PUBLIC REPO</text>
-  <rect x="240" y="304" width="152" height="22" fill="#0F3641" stroke="#22D3EE" stroke-width="2"/>
-  <text x="260" y="319" fill="#DAFBFF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PRACTICAL</text>
-  <rect x="520" y="236" width="124" height="104" fill="#171C34" stroke="#8B5CF6" stroke-width="4"/>
-  <text x="540" y="262" fill="#DDD6FE" font-family="'Courier New', monospace" font-size="14" font-weight="700">TYPE</text>
-  <text x="540" y="306" fill="#FFFFFF" font-family="'Arial Black', Impact, sans-serif" font-size="34" font-weight="900">SKILL</text>
-  <text x="540" y="324" fill="#D7E6FB" font-family="'Courier New', monospace" font-size="14" font-weight="700">extensions</text>
+<svg width="720" height="300" viewBox="0 0 720 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Skills</title>
+  <desc id="desc">Project card for reusable Codex workflow extensions and developer automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="20" x2="696" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16142D"/>
+      <stop offset="1" stop-color="#252044"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="300" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="718" height="298" rx="19" stroke="#A78BFA" stroke-opacity="0.42" stroke-width="2"/>
+  <circle cx="636" cy="58" r="120" fill="#8B5CF6" fill-opacity="0.08"/>
+  <text x="40" y="54" fill="#C4B5FD" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">SELECTED WORK · TOOLING</text>
+  <text x="40" y="112" fill="#FAF8FF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="760">Codex Skills</text>
+  <text x="40" y="151" fill="#C9C2E3" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Reusable workflows for local automation, focused</text>
+  <text x="40" y="176" fill="#C9C2E3" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">problem solving, and repeatable delivery.</text>
+  <g>
+    <rect x="40" y="216" width="82" height="34" rx="17" fill="#332C58"/>
+    <text x="61" y="238" fill="#EEE9FF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700">CODEX</text>
+    <rect x="134" y="216" width="90" height="34" rx="17" fill="#332C58"/>
+    <text x="154" y="238" fill="#EEE9FF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700">PYTHON</text>
+    <rect x="236" y="216" width="124" height="34" rx="17" fill="#332C58"/>
+    <text x="255" y="238" fill="#EEE9FF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700">WORKFLOWS</text>
+  </g>
+  <g transform="translate(560 174)">
+    <rect width="112" height="82" rx="14" fill="#29234A" stroke="#A78BFA" stroke-opacity="0.52"/>
+    <path d="M24 25H88M24 41H68M24 57H80" stroke="#C4B5FD" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="90" cy="57" r="7" fill="#67E8F9"/>
+  </g>
 </svg>

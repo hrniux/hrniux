@@ -1,146 +1,136 @@
 <div align="center">
   <img
     src="./assets/profile-hero.svg"
-    alt="hrniux profile hero"
+    alt="hrniu — agent systems, browser products, and developer tooling"
     width="100%"
   />
 
-  <h1>hrniux</h1>
+  <h1>Hi, I'm hrniu.</h1>
   <p>
-    <strong>Pixel-shaped launch surfaces for browser-native games, front-end craft, and pragmatic tooling.</strong>
+    <strong>I build explainable agent systems, browser-native products, and practical developer tooling.</strong>
   </p>
   <p>
-    I build things that open fast, look deliberate, and stay readable when you inspect the source:
-    playable browser experiences, interactive product surfaces, and workflow tools that reduce friction.
-  </p>
-
-  <p>
-    <a href="https://hrniux.github.io/demoCodex/">
-      <img alt="Live DemoCodex" src="https://img.shields.io/badge/Play-Live%20DemoCodex-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" />
-    </a>
-    <a href="https://github.com/hrniux/demoCodex">
-      <img alt="Main Repo" src="https://img.shields.io/badge/Main%20Repo-demoCodex-111827?style=for-the-badge&logo=github&logoColor=white" />
-    </a>
-    <img alt="Style" src="https://img.shields.io/badge/Style-Pixel%20Launchpad-f59e0b?style=for-the-badge" />
-    <img alt="Focus" src="https://img.shields.io/badge/Focus-Vanilla%20JS%20%2B%20Canvas-22c55e?style=for-the-badge" />
+    My work spans Java and Spring AI backends, vanilla JavaScript experiences, and reusable Codex workflows.
+    I care about clear architecture, fast local setup, and software that stays easy to understand after the first impression.
   </p>
 
   <p>
-    <a href="#launchpad">Launchpad</a> ·
-    <a href="#signature-wall">Signature Wall</a> ·
-    <a href="#why-it-lands">Why It Lands</a> ·
-    <a href="#current-direction">Current Direction</a>
+    <a href="https://opanai404.github.io/browser-game-arcade/"><strong>Play the browser arcade</strong></a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/opanai404?tab=repositories"><strong>Browse all repositories</strong></a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/opanai404/codex-skills"><strong>Explore Codex skills</strong></a>
+  </p>
+
+  <p>
+    <a href="#selected-work">Selected work</a> ·
+    <a href="#capabilities">Capabilities</a> ·
+    <a href="#working-principles">Working principles</a> ·
+    <a href="#current-focus">Current focus</a>
   </p>
 </div>
 
-## Launchpad
+## Selected work
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>What Ships</h3>
+      <a href="https://github.com/opanai404/browser-game-arcade">
+        <img src="./assets/card-browser-game-arcade.svg" alt="Browser Game Arcade" width="100%" />
+      </a>
       <p>
-        Browser-first work that makes sense at first glance and still feels clean under inspection.
-        The shared rule is simple: fast entry, strong silhouette, and source that invites reuse.
+        <strong>Browser Game Arcade</strong><br />
+        A curated collection of browser-native mini games and interactive experiments with no build step required.
       </p>
-      <ul>
-        <li>Browser-native mini games with tight loops and direct replay value</li>
-        <li>Interactive front-end surfaces with a deliberate visual identity</li>
-        <li>Workflow tooling that helps locally instead of adding ceremony</li>
-        <li>GitHub packaging that treats README, About, Pages, and previews as one launch surface</li>
-      </ul>
+      <p>
+        <a href="https://opanai404.github.io/browser-game-arcade/"><strong>Play live</strong></a>
+        ·
+        <a href="https://github.com/opanai404/browser-game-arcade"><strong>View source</strong></a>
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h3>Open First</h3>
-      <ul>
-        <li><a href="https://hrniux.github.io/demoCodex/">Live DemoCodex</a> for the strongest public showcase</li>
-        <li><a href="https://github.com/hrniux/demoCodex">demoCodex</a> for playable pages, browser tests, and packaging work</li>
-        <li><a href="https://github.com/hrniux/codex-skills">codex-skills</a> for reusable Codex workflow extensions</li>
-        <li><a href="https://github.com/hrniux/demo">demo</a> for fast browser-first iteration</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-> If a repository is worth opening, it should already feel intentional before the first scroll.
-
-## Signature Wall
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hrniux/demoCodex">
-        <img src="./assets/card-demoCodex.svg" alt="demoCodex project card" width="100%" />
+      <a href="https://github.com/opanai404/insurance-underwriting-agent">
+        <img src="./assets/card-insurance-underwriting-agent.svg" alt="Insurance Underwriting Agent" width="100%" />
       </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hrniux/codex-skills">
-        <img src="./assets/card-codex-skills.svg" alt="codex-skills project card" width="100%" />
-      </a>
+      <p>
+        <strong>Insurance Underwriting Agent</strong><br />
+        An explainable Java agent with RAG, deterministic rules, MCP tools, decision replay, and auditable execution traces.
+      </p>
+      <p>
+        <a href="https://github.com/opanai404/insurance-underwriting-agent"><strong>Explore the architecture</strong></a>
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hrniux/demo">
-        <img src="./assets/card-demo.svg" alt="demo project card" width="100%" />
+      <a href="https://github.com/opanai404/codex-skills">
+        <img src="./assets/card-codex-skills.svg" alt="Codex Skills" width="100%" />
       </a>
+      <p>
+        <strong>Codex Skills</strong><br />
+        Reusable workflow extensions for local automation, focused problem solving, and repeatable delivery.
+      </p>
+      <p>
+        <a href="https://github.com/opanai404/codex-skills"><strong>Browse the skills</strong></a>
+      </p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/hrniux/gen">
-        <img src="./assets/card-gen.svg" alt="gen project card" width="100%" />
+      <a href="https://github.com/opanai404/harvest-valley-lite">
+        <img src="./assets/card-harvest-valley-lite.svg" alt="Harvest Valley Lite" width="100%" />
       </a>
+      <p>
+        <strong>Harvest Valley Lite</strong><br />
+        A compact Canvas farming game with a complete playable loop and a deliberately lightweight implementation.
+      </p>
+      <p>
+        <a href="https://github.com/opanai404/harvest-valley-lite"><strong>View source</strong></a>
+      </p>
     </td>
   </tr>
 </table>
 
-Each card is wired to a repo I expect people to open immediately, not just skim and leave.
-
-## Why It Lands
+## Capabilities
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>Fast Hook</h3>
-      <p><strong>Open it and it runs.</strong></p>
-      <p>Most surfaces pay off quickly instead of asking for setup, context, or patience.</p>
+      <h3>Agent systems</h3>
+      <p>
+        Java 21, Spring Boot, Spring AI, RAG, MCP, deterministic rules, async workflows,
+        observability, replay, and auditability.
+      </p>
     </td>
     <td width="33%" valign="top">
-      <h3>Visual Direction</h3>
-      <p><strong>Packaging is part of the work.</strong></p>
-      <p>The README, About, hero art, Pages site, and repo descriptions all tell the same story.</p>
+      <h3>Browser products</h3>
+      <p>
+        Vanilla JavaScript, Canvas, accessible interfaces, responsive layouts,
+        browser automation, and fast feedback loops.
+      </p>
     </td>
     <td width="33%" valign="top">
-      <h3>Fork Value</h3>
-      <p><strong>Readable under the hood.</strong></p>
-      <p>The code stays simple enough to study, remix, and actually reuse.</p>
+      <h3>Developer tooling</h3>
+      <p>
+        Codex workflows, Git and GitHub automation, testable local tooling,
+        documentation systems, and pragmatic delivery pipelines.
+      </p>
     </td>
   </tr>
 </table>
 
-## GitHub Snapshot
+## Working principles
+
+- **Make the system legible.** Important decisions should be traceable in the architecture, the runtime, and the documentation.
+- **Keep the first run simple.** Useful local defaults and clear setup paths matter more than unnecessary infrastructure.
+- **Design for inspection.** Code should remain readable, testable, and easy to extend after the polished surface draws people in.
+- **Treat presentation as delivery.** The README, project metadata, live experience, and source should tell one coherent story.
+
+## Current focus
+
+- advancing explainable agent workflows with stronger evaluation, replay, and governance
+- building browser-native interaction systems with memorable mechanics and minimal setup
+- packaging repeatable Codex workflows for practical local development
+- turning prototypes into portfolio-quality projects with clear architecture and verification
 
 <div align="center">
-  <img
-    height="176"
-    src="https://github-readme-stats.vercel.app/api?username=hrniux&show_icons=true&hide_border=true&title_color=38bdf8&icon_color=f59e0b&text_color=dbeafe&bg_color=0b1220"
-    alt="GitHub stats"
-  />
-  <img
-    height="176"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrniux&layout=compact&hide_border=true&title_color=38bdf8&text_color=dbeafe&bg_color=0b1220"
-    alt="Top languages"
-  />
+  <sub>Build the useful thing. Explain it clearly. Leave it easier to extend.</sub>
 </div>
-
-## Current Direction
-
-- turning GitHub surfaces into product launches instead of plain repo pages
-- shipping browser-native experiences with stronger replay and stronger packaging
-- keeping the source clean while the presentation gets more memorable
-- building things people want to click before they want to audit
-
-## Live Surface
-
-- Main live experience: [hrniux.github.io/demoCodex](https://hrniux.github.io/demoCodex/)
-- Main source repo: [github.com/hrniux/demoCodex](https://github.com/hrniux/demoCodex)
-- Codex workflow extensions: [github.com/hrniux/codex-skills](https://github.com/hrniux/codex-skills)
