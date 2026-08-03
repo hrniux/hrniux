@@ -19,11 +19,11 @@
   </p>
 
   <p>
-    <a href="https://opanai404.github.io/browser-game-arcade/"><strong>Play the browser arcade / 在线体验</strong></a>
+    <a href="https://hrniux.github.io/browser-game-arcade/"><strong>Play the browser arcade / 在线体验</strong></a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/opanai404?tab=repositories"><strong>Browse all repositories / 浏览项目</strong></a>
+    <a href="https://github.com/hrniux?tab=repositories"><strong>Browse all repositories / 浏览项目</strong></a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/opanai404/codex-skills"><strong>Explore Codex skills / 查看技能库</strong></a>
+    <a href="https://github.com/hrniux/codex-skills"><strong>Explore Codex skills / 查看技能库</strong></a>
   </p>
 
   <p>
@@ -39,7 +39,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/opanai404/browser-game-arcade">
+      <a href="https://github.com/hrniux/browser-game-arcade">
         <img src="./assets/card-browser-game-arcade.svg" alt="Browser Game Arcade" width="100%" />
       </a>
       <p>
@@ -49,13 +49,13 @@
         无需构建即可运行的浏览器原生小游戏与互动实验合集。
       </p>
       <p>
-        <a href="https://opanai404.github.io/browser-game-arcade/"><strong>Play live / 在线体验</strong></a>
+        <a href="https://hrniux.github.io/browser-game-arcade/"><strong>Play live / 在线体验</strong></a>
         ·
-        <a href="https://github.com/opanai404/browser-game-arcade"><strong>View source / 查看源码</strong></a>
+        <a href="https://github.com/hrniux/browser-game-arcade"><strong>View source / 查看源码</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/opanai404/insurance-underwriting-agent">
+      <a href="https://github.com/hrniux/insurance-underwriting-agent">
         <img src="./assets/card-insurance-underwriting-agent.svg" alt="Insurance Underwriting Agent" width="100%" />
       </a>
       <p>
@@ -65,13 +65,13 @@
         以 RAG、确定性规则、MCP 工具、决策重演和审计轨迹构成的可解释 Java 智能体。
       </p>
       <p>
-        <a href="https://github.com/opanai404/insurance-underwriting-agent"><strong>Explore the architecture / 查看架构</strong></a>
+        <a href="https://github.com/hrniux/insurance-underwriting-agent"><strong>Explore the architecture / 查看架构</strong></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/opanai404/codex-skills">
+      <a href="https://github.com/hrniux/codex-skills">
         <img src="./assets/card-codex-skills.svg" alt="Codex Skills" width="100%" />
       </a>
       <p>
@@ -81,11 +81,11 @@
         面向本地自动化、聚焦式问题解决和可重复交付的工作流扩展。
       </p>
       <p>
-        <a href="https://github.com/opanai404/codex-skills"><strong>Browse the skills / 查看技能</strong></a>
+        <a href="https://github.com/hrniux/codex-skills"><strong>Browse the skills / 查看技能</strong></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/opanai404/harvest-valley-lite">
+      <a href="https://github.com/hrniux/harvest-valley-lite">
         <img src="./assets/card-harvest-valley-lite.svg" alt="Harvest Valley Lite" width="100%" />
       </a>
       <p>
@@ -95,7 +95,7 @@
         基于 Canvas 的轻量农场游戏，具备完整可玩的核心循环。
       </p>
       <p>
-        <a href="https://github.com/opanai404/harvest-valley-lite"><strong>View source / 查看源码</strong></a>
+        <a href="https://github.com/hrniux/harvest-valley-lite"><strong>View source / 查看源码</strong></a>
       </p>
     </td>
   </tr>
