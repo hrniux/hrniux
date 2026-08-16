@@ -7,8 +7,8 @@
 
   <h1>Hi, I'm hrniu. / 你好，我是 hrniu。</h1>
   <p>
-    <strong>I build explainable agent systems, browser-native products, and practical developer tooling.</strong><br />
-    <strong>我专注于可解释智能体系统、浏览器原生产品与实用开发工具。</strong>
+    <strong>I build explainable agent systems and Java/Spring backends, with browser products and developer tooling as supporting breadth.</strong><br />
+    <strong>我专注于可解释智能体系统与 Java/Spring 后端，兼顾浏览器产品与开发工具。</strong>
   </p>
   <p>
     My work spans Java and Spring AI backends, vanilla JavaScript experiences, and reusable Codex workflows.
@@ -39,6 +39,36 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/hrniux/insurance-underwriting-agent">
+        <img src="./assets/card-insurance-underwriting-agent.svg" alt="Insurance Underwriting Agent" width="100%" />
+      </a>
+      <p>
+        <strong>Insurance Underwriting Agent</strong><br />
+        An explainable Java agent with RAG, deterministic rules, MCP tools, decision replay, and auditable execution traces.
+        <br />
+        以 RAG、确定性规则、MCP 工具、决策重演和审计轨迹构成的可解释 Java 智能体。
+      </p>
+      <p>
+        <a href="https://github.com/hrniux/insurance-underwriting-agent"><strong>Explore the architecture / 查看架构</strong></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hrniux/spring-boot-lab">
+        <img src="./assets/card-spring-boot-lab.svg" alt="Spring Boot Lab" width="100%" />
+      </a>
+      <p>
+        <strong>Spring Boot Lab</strong><br />
+        A Java 21 Spring Boot laboratory with a validated REST API, unified error handling, and focused experiments.
+        <br />
+        具备参数校验、统一错误处理 REST API 的 Java 21 Spring Boot 实验室。
+      </p>
+      <p>
+        <a href="https://github.com/hrniux/spring-boot-lab"><strong>View the lab / 查看实验</strong></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/hrniux/browser-game-arcade">
         <img src="./assets/card-browser-game-arcade.svg" alt="Browser Game Arcade" width="100%" />
       </a>
@@ -55,22 +85,6 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/hrniux/insurance-underwriting-agent">
-        <img src="./assets/card-insurance-underwriting-agent.svg" alt="Insurance Underwriting Agent" width="100%" />
-      </a>
-      <p>
-        <strong>Insurance Underwriting Agent</strong><br />
-        An explainable Java agent with RAG, deterministic rules, MCP tools, decision replay, and auditable execution traces.
-        <br />
-        以 RAG、确定性规则、MCP 工具、决策重演和审计轨迹构成的可解释 Java 智能体。
-      </p>
-      <p>
-        <a href="https://github.com/hrniux/insurance-underwriting-agent"><strong>Explore the architecture / 查看架构</strong></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://github.com/hrniux/codex-skills">
         <img src="./assets/card-codex-skills.svg" alt="Codex Skills" width="100%" />
       </a>
@@ -84,6 +98,8 @@
         <a href="https://github.com/hrniux/codex-skills"><strong>Browse the skills / 查看技能</strong></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hrniux/harvest-valley-lite">
         <img src="./assets/card-harvest-valley-lite.svg" alt="Harvest Valley Lite" width="100%" />
@@ -98,6 +114,7 @@
         <a href="https://github.com/hrniux/harvest-valley-lite"><strong>View source / 查看源码</strong></a>
       </p>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -108,8 +125,7 @@
     <td width="33%" valign="top">
       <h3>Agent systems<br />智能体系统</h3>
       <p>
-        Java 21, Spring Boot, Spring AI, RAG, MCP, deterministic rules, async workflows,
-        observability, replay, and auditability.
+        Java 21, Spring Boot, Spring AI, RAG, MCP, deterministic rules, and auditable replay.
         <br /><br />
         覆盖可解释智能体的检索、规则、异步编排、可观测性、重演与审计。
       </p>
