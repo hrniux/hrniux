@@ -7,27 +7,27 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
 ## 精选项目
 
 <a href="https://github.com/hrniux/insurance-underwriting-agent">
-  <img src="./assets/cards/insurance-dark.svg" width="100%" alt="insurance-underwriting-agent">
+  <img src="./assets/cards/insurance.svg" width="100%" alt="insurance-underwriting-agent">
 </a>
 
 <a href="https://github.com/hrniux/spring-boot-lab">
-  <img src="./assets/cards/spring-boot-dark.svg" width="100%" alt="spring-boot-lab">
+  <img src="./assets/cards/spring-boot.svg" width="100%" alt="spring-boot-lab">
 </a>
 
 <a href="https://github.com/hrniux/browser-game-arcade">
-  <img src="./assets/cards/game-dark.svg" width="100%" alt="browser-game-arcade">
+  <img src="./assets/cards/game.svg" width="100%" alt="browser-game-arcade">
 </a>
 
 <a href="https://github.com/hrniux/harvest-valley-lite">
-  <img src="./assets/cards/harvest-dark.svg" width="100%" alt="harvest-valley-lite">
+  <img src="./assets/cards/harvest.svg" width="100%" alt="harvest-valley-lite">
 </a>
 
 <a href="https://github.com/hrniux/codex-skills">
-  <img src="./assets/cards/codex-dark.svg" width="100%" alt="codex-skills">
+  <img src="./assets/cards/codex.svg" width="100%" alt="codex-skills">
 </a>
 
 <a href="https://github.com/hrniux/math-conjectures">
-  <img src="./assets/cards/math-dark.svg" width="100%" alt="math-conjectures">
+  <img src="./assets/cards/math.svg" width="100%" alt="math-conjectures">
 </a>
 
 ## 技术栈
