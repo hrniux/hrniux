@@ -1,7 +1,7 @@
 <div align="center">
   <img
     src="./assets/profile-hero.svg"
-    alt="hrniu — agent systems, browser products, and developer tooling"
+    alt="hrniu — Java/Spring backends and explainable agent systems"
     width="100%"
   />
 
