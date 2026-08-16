@@ -7,7 +7,7 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
 
 ## 精选项目
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="50%">
       <sub>智能体系统</sub><br>
@@ -23,13 +23,13 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" width="50%">
       <sub>浏览器产品</sub><br>
       <a href="https://github.com/hrniux/browser-game-arcade"><img src="./assets/icons/game.svg" width="36"></a><br>
       <strong><a href="https://github.com/hrniux/browser-game-arcade">browser-game-arcade</a></strong><br>
       <sub>75 个原生小游戏，在线可玩</sub>
     </td>
-    <td align="center">
+    <td align="center" width="50%">
       <sub>浏览器产品</sub><br>
       <a href="https://github.com/hrniux/harvest-valley-lite"><img src="./assets/icons/harvest.svg" width="36"></a><br>
       <strong><a href="https://github.com/hrniux/harvest-valley-lite">harvest-valley-lite</a></strong><br>
@@ -37,13 +37,13 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" width="50%">
       <sub>开发工具</sub><br>
       <a href="https://github.com/hrniux/codex-skills"><img src="./assets/icons/codex.svg" width="36"></a><br>
       <strong><a href="https://github.com/hrniux/codex-skills">codex-skills</a></strong><br>
       <sub>Codex / Claude Code 工作流技能</sub>
     </td>
-    <td align="center">
+    <td align="center" width="50%">
       <sub>数学知识</sub><br>
       <a href="https://github.com/hrniux/math-conjectures"><img src="./assets/icons/math.svg" width="36"></a><br>
       <strong><a href="https://github.com/hrniux/math-conjectures">math-conjectures</a></strong><br>
