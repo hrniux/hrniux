@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="./assets/profile-hero.svg" alt="hrniu" width="100%" />
+  <img src="./assets/profile-hero-light.svg#gh-light-mode-only" alt="hrniu" width="100%" />
+  <img src="./assets/profile-hero-dark.svg#gh-dark-mode-only" alt="hrniu" width="100%" />
 </div>
 
 ## 精选项目
