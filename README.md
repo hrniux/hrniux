@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-hero-dark.svg" alt="hrniu" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="hrniu" width="100%" />
 </div>
 
 Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确定性规则、MCP 工具、审计与决策重演。也做浏览器原生小游戏、Codex 工作流，以及一个数学猜想百科。
