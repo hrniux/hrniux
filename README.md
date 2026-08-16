@@ -9,24 +9,24 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
 
 **智能体系统**
 
-- [insurance-underwriting-agent](https://github.com/hrniux/insurance-underwriting-agent) — 可解释 Java 智能体：RAG、确定性规则、MCP、决策重演与审计轨迹。
+- <img src="./assets/icons/insurance.svg" width="18" align="center"> [insurance-underwriting-agent](https://github.com/hrniux/insurance-underwriting-agent) — 可解释 Java 智能体：RAG、确定性规则、MCP、决策重演与审计轨迹。
 
 **后端工程**
 
-- [spring-boot-lab](https://github.com/hrniux/spring-boot-lab) — Java 21 / Spring Boot 实验室：REST、参数校验、统一错误处理与测试。
+- <img src="./assets/icons/spring-boot.svg" width="18" align="center"> [spring-boot-lab](https://github.com/hrniux/spring-boot-lab) — Java 21 / Spring Boot 实验室：REST、参数校验、统一错误处理与测试。
 
 **浏览器产品**
 
-- [browser-game-arcade](https://github.com/hrniux/browser-game-arcade) — 浏览器原生小游戏合集，75 个页面在线可玩。
-- [harvest-valley-lite](https://github.com/hrniux/harvest-valley-lite) — 轻量 Canvas 农场游戏。
+- <img src="./assets/icons/game.svg" width="18" align="center"> [browser-game-arcade](https://github.com/hrniux/browser-game-arcade) — 浏览器原生小游戏合集，75 个页面在线可玩。
+- <img src="./assets/icons/harvest.svg" width="18" align="center"> [harvest-valley-lite](https://github.com/hrniux/harvest-valley-lite) — 轻量 Canvas 农场游戏。
 
 **开发工具**
 
-- [codex-skills](https://github.com/hrniux/codex-skills) — Codex / Claude Code 工作流技能。
+- <img src="./assets/icons/codex.svg" width="18" align="center"> [codex-skills](https://github.com/hrniux/codex-skills) — Codex / Claude Code 工作流技能。
 
 **数学 / 知识**
 
-- [math-conjectures](https://github.com/hrniux/math-conjectures) — 世界著名数学猜想的百科：精确陈述、通俗解释与可视化配图。
+- <img src="./assets/icons/math.svg" width="18" align="center"> [math-conjectures](https://github.com/hrniux/math-conjectures) — 世界著名数学猜想的百科：精确陈述、通俗解释与可视化配图。
 
 ## 技术栈
 
