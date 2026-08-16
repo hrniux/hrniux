@@ -3,7 +3,7 @@
   <img src="./assets/profile-hero-dark.svg#gh-dark-mode-only" alt="hrniu" width="100%" />
 </div>
 
-Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确定性规则、MCP 工具、审计与决策重演。也做浏览器原生小游戏和 Codex 工作流。
+Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确定性规则、MCP 工具、审计与决策重演。也做浏览器原生小游戏、Codex 工作流，以及一个数学猜想百科。
 
 ## 精选项目
 
@@ -23,6 +23,10 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
 **开发工具**
 
 - [codex-skills](https://github.com/hrniux/codex-skills) — Codex / Claude Code 工作流技能。
+
+**数学 / 知识**
+
+- [math-conjectures](https://github.com/hrniux/math-conjectures) — 世界著名数学猜想的百科：精确陈述、通俗解释与可视化配图。
 
 ## 技术栈
 
