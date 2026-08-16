@@ -127,7 +127,7 @@
       <p>
         Java 21, Spring Boot, Spring AI, RAG, MCP, deterministic rules, and auditable replay.
         <br /><br />
-        覆盖可解释智能体的检索、规则、异步编排、可观测性、重演与审计。
+        以 Java 21 与 Spring AI 为底座，覆盖 RAG 检索、确定性规则、MCP 与可审计重演。
       </p>
     </td>
     <td width="33%" valign="top">
