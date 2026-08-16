@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-hero-light.svg#gh-light-mode-only" alt="hrniu" width="100%" />
-  <img src="./assets/profile-hero-dark.svg#gh-dark-mode-only" alt="hrniu" width="100%" />
+  <img src="./assets/profile-hero-dark.svg" alt="hrniu" width="100%" />
 </div>
 
 Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确定性规则、MCP 工具、审计与决策重演。也做浏览器原生小游戏、Codex 工作流，以及一个数学猜想百科。
@@ -8,33 +7,27 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
 ## 精选项目
 
 <a href="https://github.com/hrniux/insurance-underwriting-agent">
-  <img src="./assets/cards/insurance-dark.svg#gh-dark-mode-only" width="100%" alt="insurance-underwriting-agent">
-  <img src="./assets/cards/insurance-light.svg#gh-light-mode-only" width="100%" alt="insurance-underwriting-agent">
+  <img src="./assets/cards/insurance-dark.svg" width="100%" alt="insurance-underwriting-agent">
 </a>
 
 <a href="https://github.com/hrniux/spring-boot-lab">
-  <img src="./assets/cards/spring-boot-dark.svg#gh-dark-mode-only" width="100%" alt="spring-boot-lab">
-  <img src="./assets/cards/spring-boot-light.svg#gh-light-mode-only" width="100%" alt="spring-boot-lab">
+  <img src="./assets/cards/spring-boot-dark.svg" width="100%" alt="spring-boot-lab">
 </a>
 
 <a href="https://github.com/hrniux/browser-game-arcade">
-  <img src="./assets/cards/game-dark.svg#gh-dark-mode-only" width="100%" alt="browser-game-arcade">
-  <img src="./assets/cards/game-light.svg#gh-light-mode-only" width="100%" alt="browser-game-arcade">
+  <img src="./assets/cards/game-dark.svg" width="100%" alt="browser-game-arcade">
 </a>
 
 <a href="https://github.com/hrniux/harvest-valley-lite">
-  <img src="./assets/cards/harvest-dark.svg#gh-dark-mode-only" width="100%" alt="harvest-valley-lite">
-  <img src="./assets/cards/harvest-light.svg#gh-light-mode-only" width="100%" alt="harvest-valley-lite">
+  <img src="./assets/cards/harvest-dark.svg" width="100%" alt="harvest-valley-lite">
 </a>
 
 <a href="https://github.com/hrniux/codex-skills">
-  <img src="./assets/cards/codex-dark.svg#gh-dark-mode-only" width="100%" alt="codex-skills">
-  <img src="./assets/cards/codex-light.svg#gh-light-mode-only" width="100%" alt="codex-skills">
+  <img src="./assets/cards/codex-dark.svg" width="100%" alt="codex-skills">
 </a>
 
 <a href="https://github.com/hrniux/math-conjectures">
-  <img src="./assets/cards/math-dark.svg#gh-dark-mode-only" width="100%" alt="math-conjectures">
-  <img src="./assets/cards/math-light.svg#gh-light-mode-only" width="100%" alt="math-conjectures">
+  <img src="./assets/cards/math-dark.svg" width="100%" alt="math-conjectures">
 </a>
 
 ## 技术栈
