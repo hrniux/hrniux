@@ -16,6 +16,7 @@ class ProfileCheckTest(unittest.TestCase):
         spec.loader.exec_module(self.module)
         (self.root / "assets").mkdir()
         (self.root / "assets/card.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg"/>')
+        (self.root / "START_HERE.md").write_text('[主页](README.md)')
 
     def readme(self, content):
         (self.root / "README.md").write_text(content)
@@ -38,6 +39,11 @@ class ProfileCheckTest(unittest.TestCase):
 
     def test_external_links_are_not_claimed_as_verified(self):
         self.assertEqual(self.readme('[project](https://github.com/hrniux/codex-skills)\n[mail](mailto:example@example.test)'), [])
+
+    def test_starting_guide_local_links_are_checked_with_document_context(self):
+        (self.root / "START_HERE.md").write_text('[broken](missing-guide-target.md)')
+        errors = self.readme('[开始](START_HERE.md)')
+        self.assertTrue(any('START_HERE.md' in error and 'missing-guide-target.md' in error for error in errors))
 
 
 if __name__ == '__main__':

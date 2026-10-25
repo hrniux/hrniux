@@ -9,6 +9,8 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
 
 下面的文字入口与项目卡片对应，方便直接选择体验方式或阅读路线。
 
+第一次来可以先看[按目标开始：后端、游戏与知识核验](START_HERE.md)，选一条约 30 分钟的学习时间盒；环境安装和首次下载另计。
+
 | 想看什么 | 项目与入口 | 从哪里开始 |
 |---|---|---|
 | Java 智能体的完整业务链路 | [insurance-underwriting-agent](https://github.com/hrniux/insurance-underwriting-agent) | 按 README 启动离线 Mock 演示，在 `/demo/` 对比虚构场景，再追踪规则、证据与人工复核 |
@@ -17,6 +19,7 @@ Java / Spring 后端工程师，专注于可解释智能体系统——RAG、确
 | 小型游戏的状态建模 | [harvest-valley-lite](https://github.com/hrniux/harvest-valley-lite) | `npm install`、`npm run dev`，体验耕种循环后阅读游戏状态与边界测试 |
 | 可复用的开发工作流 | [codex-skills](https://github.com/hrniux/codex-skills) | 阅读技能说明，按自己的路径与权限配置；先检查再执行本地操作 |
 | 数学概念的精确表述 | [math-conjectures](https://github.com/hrniux/math-conjectures) | 从目录按领域与问题状态阅读，区分猜想、定理、反例和独立性 |
+| Git 姓名字段与证据边界 | [verify-authenticity](https://github.com/hrniux/verify-authenticity) | 读取固定历史提交与截图哈希报告，区分可编辑姓名、对象一致性与真实身份认证 |
 
 后端演示使用虚构数据，供学习和工程讲解；各仓库的运行前提、已验证范围与限制以其 README 为准。
 
@@ -59,4 +62,4 @@ python3 scripts/check_profile.py
 python3 -B -m unittest discover -s tests -v
 ```
 
-检查覆盖本地行内链接、图片替代文字和 SVG 语法，不联网验证外部地址。新增卡片时请同时更新上方文字导航。
+检查覆盖 `README.md`、`START_HERE.md` 的本地行内链接、图片替代文字和 SVG 语法，不联网验证外部地址。新增卡片时请同时更新上方文字导航。

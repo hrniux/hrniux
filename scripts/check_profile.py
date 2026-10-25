@@ -1,4 +1,4 @@
-"""Check local inline README links/images and SVG syntax; no external requests.
+"""Check declared local document links/images and SVG syntax; no external requests.
 
 Supported Markdown is inline [label](destination) and HTML href/src attributes.
 This is a local asset check, not a complete Markdown parser or remote link check.
@@ -10,6 +10,8 @@ import re
 import sys
 from urllib.parse import unquote, urlsplit
 import xml.etree.ElementTree as ET
+
+DOCUMENTS = ("README.md", "START_HERE.md")
 
 
 class References(HTMLParser):
@@ -27,12 +29,11 @@ class References(HTMLParser):
             self.errors.append("HTML image needs nonempty alt text")
 
 
-def check_profile(root):
-    root = Path(root).resolve()
+def check_document(root, document):
     try:
-        text = (root / "README.md").read_text(encoding="utf-8")
+        text = (root / document).read_text(encoding="utf-8")
     except (OSError, UnicodeError) as error:
-        return [f"README.md: {error}"]
+        return [f"{document}: {error}"]
     parser = References()
     parser.feed(text)
     errors = list(parser.errors)
@@ -51,6 +52,12 @@ def check_profile(root):
             errors.append(f"Local link points outside repository: {target}")
         elif not local.exists():
             errors.append(f"Missing local target: {target}")
+    return [f"{document}: {error}" for error in errors]
+
+
+def check_profile(root):
+    root = Path(root).resolve()
+    errors = [error for document in DOCUMENTS for error in check_document(root, document)]
     for svg in sorted((root / "assets").rglob("*.svg")):
         if not svg.resolve().is_relative_to(root):
             errors.append(f"SVG outside repository: {svg.relative_to(root)}")
