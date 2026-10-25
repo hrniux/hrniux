@@ -138,6 +138,42 @@ def atomic_json(path, value):
             os.unlink(temporary)
 
 
+def validate_paths(*paths):
+    """Reject lexical, symlink and existing hardlink aliases before any effects."""
+    paths = [Path(path) for path in paths if path is not None]
+    try:
+        resolved = [path.resolve() for path in paths]
+        for index, path in enumerate(paths):
+            for earlier in range(index):
+                if resolved[index] == resolved[earlier]:
+                    raise ValueError("Configuration, state and report paths must be distinct")
+                if path.exists() and paths[earlier].exists() and path.samefile(paths[earlier]):
+                    raise ValueError("Configuration, state and report paths must be distinct")
+    except RuntimeError:
+        raise ValueError("Invalid file path") from None
+
+
+def validate_state(state):
+    """Validate all records, including stale IDs, before status or API access."""
+    valid = (isinstance(state, dict) and set(state) == {"schemaVersion", "operations"}
+             and type(state.get("schemaVersion")) is int and state["schemaVersion"] == 1
+             and isinstance(state.get("operations"), dict))
+    if valid:
+        for identifier, record in state["operations"].items():
+            if not (isinstance(identifier, str) and re.fullmatch(r"[A-Za-z0-9_-]{1,100}", identifier)
+                    and isinstance(record, dict) and set(record) == {"fingerprint", "status", "reason"}
+                    and isinstance(record["fingerprint"], str)
+                    and re.fullmatch(r"[0-9a-f]{64}", record["fingerprint"])
+                    and isinstance(record["status"], str)
+                    and record["status"] in {"pending", "manual", "applied", "blocked", "failed"}
+                    and isinstance(record["reason"], str)):
+                valid = False
+                break
+    if not valid:
+        raise ValueError("Invalid local state; preserve it for recovery")
+    return state
+
+
 class Engine:
     def __init__(self, config, state_path=".local/state.json", github=None):
         self.config = validate_config(config)
@@ -146,10 +182,7 @@ class Engine:
         self.state = {"schemaVersion": 1, "operations": {}}
         if self.state_path.exists():
             try:
-                self.state = json.loads(self.state_path.read_text(encoding="utf-8"))
-                if (self.state.get("schemaVersion") != 1 or not isinstance(self.state.get("operations"), dict)
-                        or not all(isinstance(record, dict) for record in self.state["operations"].values())):
-                    raise ValueError()
+                self.state = validate_state(json.loads(self.state_path.read_text(encoding="utf-8")))
             except (ValueError, AttributeError, OSError):
                 raise ValueError("Invalid local state; preserve it for recovery") from None
 
@@ -218,7 +251,13 @@ class Engine:
         observed = self.github.api(endpoint)
         return isinstance(observed, dict) and all((observed.get(key) or "") == value for key, value in desired.items())
 
+    def audit(self, report=None):
+        from studio.audit import audit
+        validate_paths(self.state_path, report)
+        return audit(self, report)
+
     def apply(self, retry_blocked=False, report=None):
+        validate_paths(self.state_path, report)
         account = self.github.api("user")
         if not isinstance(account, dict) or account.get("login") != "hrniux":
             raise OperationError(None, "account_mismatch")

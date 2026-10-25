@@ -11,6 +11,14 @@ python3 scripts/studio.py status --json
 
 这两个命令读取配置与本地状态，离线运行，不调用 GitHub API，不更新状态文件。它们不是实时远端审计：其他工具改变了 GitHub 后，本地 `applied` 状态不会自动失效。
 
+需要核查当前远端是否满足配置时，运行只读的 `audit`，并阅读 [维护审计说明](MAINTENANCE.md)。它保留历史状态，只将当前观察另存报告：
+
+```bash
+python3 scripts/studio.py audit --state reports/resume-state.json --json --report reports/remote-audit.json
+```
+
+配置、状态、报告不得指向同一文件或其软链接/硬链接别名；工具会在远端调用前拒绝冲突路径。损坏的状态字段同样受控退出，并保留原文件。
+
 默认配置是 `config/operations.json`，默认状态是 `.local/state.json`。路径均相对于当前工作目录。可显式指定：
 
 ```bash

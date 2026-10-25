@@ -13,6 +13,9 @@
 python3 scripts/studio.py plan --json
 python3 scripts/studio.py status --json
 
+# 只读核查当前远端，与历史执行状态分开保存
+python3 scripts/studio.py audit --state reports/resume-state.json --json --report reports/remote-audit.json
+
 # 执行配置中的远端变更，并保存去敏公开报告
 python3 scripts/studio.py apply --report reports/execution-summary.json
 
@@ -50,7 +53,7 @@ docs/OPERATIONS.md         状态恢复、权限与发布说明
 reports/                   去敏公开执行报告
 ```
 
-阅读 [调研来源](docs/RESEARCH.md) 与 [作品集策略](docs/PORTFOLIO_STRATEGY.md)，了解导航、项目选择和真实成果展示的依据。公开产物只收录公开仓库与可核验内容，不将草稿或未合并代码描述为已发布能力，也不创建定时任务。
+阅读 [调研来源](docs/RESEARCH.md)、[作品集策略](docs/PORTFOLIO_STRATEGY.md) 与 [维护审计](docs/MAINTENANCE.md)，了解导航、项目选择和真实成果展示的依据。公开产物只收录公开仓库与可核验内容，不将草稿或未合并代码描述为已发布能力，也不创建定时任务。
 
 ## 验证与贡献
 
