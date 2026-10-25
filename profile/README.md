@@ -29,7 +29,7 @@ Java 21 / Spring Boot 4.1 / Spring AI 2.0 的离线核保 Demo，把 RAG、MCP �
 
 ## 实践入口
 
-**先跑通，再读实现。** 核保项目的 `main` 默认使用离线 Mock，无需 API Key 或外部数据库。本机准备 Java 21+，从下面的命令开始：
+**先跑通，再读实现。** 核保项目的 `main` 默认使用离线 Mock，无需 API Key 或外部数据库。本机准备完整 JDK 21+，从下面的命令开始：
 
 ```bash
 git clone https://github.com/hrniux/insurance-underwriting-agent.git

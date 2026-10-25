@@ -28,7 +28,13 @@ python3 scripts/studio.py apply --retry-blocked --report reports/execution-summa
 
 当前结果以 [执行报告](reports/execution-summary.json) 为准。`pending`、`manual`、`applied`、`blocked`、`failed` 的含义及恢复方式见 [运行说明](docs/OPERATIONS.md)。置顶没有本项目可用的受支持 API，保留为之后通过浏览器完成的任务。
 
-默认运行状态保存在已被 Git 忽略的 `.local/state.json`；可用 `--state` 指定路径。执行器面向单进程使用，不应让多个进程同时写同一状态文件。HTTP 401/403 会保留为 `blocked`，普通 `apply` 不会重试这些项目。
+本次参数操作结果为 **38 项 blocked、6 项 manual、1 项等待依赖**。主页和文档的内容发布单独记录在 [交付记录](reports/publication.json)。权限补足后，可以直接使用随仓库保存的公开检查点统一恢复：
+
+```bash
+python3 scripts/studio.py apply --state reports/resume-state.json --retry-blocked --report reports/execution-summary.json
+```
+
+默认运行状态保存在已被 Git 忽略的 `.local/state.json`；可用 `--state` 指定路径。执行器面向单进程使用，不应让多个进程同时写同一状态文件。单项操作遇到 HTTP 401/403 会保留为 `blocked`，普通 `apply` 不会重试这些项目；初始账号查询失败则停止本次执行。
 
 ## 项目内容
 

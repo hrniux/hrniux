@@ -47,6 +47,14 @@ python3 scripts/studio.py status --json
 
 已应用的相同配置会跳过；修改某项配置后，其指纹变化，该项重新进入待处理。执行器并不回滚已完成的远端操作。
 
+本次已将仅含公开操作编号、配置指纹、状态和原因类别的检查点导出为 `reports/resume-state.json`。从分支或 ZIP 获取项目后，可复用它，无需重新建立上次状态：
+
+```bash
+python3 scripts/studio.py apply --state reports/resume-state.json --retry-blocked --report reports/execution-summary.json
+```
+
+该命令会更新这份检查点。若希望继续使用默认本地状态，先将它复制到 `.local/state.json` 再运行默认命令。仓库内容发布的结果另见 `reports/publication.json`；参数操作执行器不把这些 Git 提交计入自己的 applied 项数。
+
 退出码 `1` 表示本次结果包含 `failed`，`2` 表示配置、状态、账号或前置请求等错误；`blocked` 和 `manual` 本身不会使退出码非零。判断完成情况必须查看报告中的各项状态，不能只看退出码。
 
 ## 置顶与报告

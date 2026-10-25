@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "operations": {
+    "create-github-studio": {
+      "fingerprint": "d1748db14c1e88d9b96e1feb53ec70f7e6b67fb786473781c472561b79c13ec4",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-insurance-underwriting-agent": {
+      "fingerprint": "41037098cd0949067e2370b72de24440656991943003340a24bf51182c686865",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-insurance-underwriting-agent": {
+      "fingerprint": "3d66c98a8ff9935bbf70f40be17327e9ae9b6509b153dfe949b6b31b17cacdba",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-spring-boot-lab": {
+      "fingerprint": "5c014cf3420152a5695615418dc661c4fa3df5889f218db10626913b4b0921b0",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-spring-boot-lab": {
+      "fingerprint": "49a701aae4db095ad9cef5ae211d849662b76afc4418930812c84c82ca580d7b",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-codex-skills": {
+      "fingerprint": "afdd799a1f04bd4623164c376b7f3271b7569dcab52261c598106f0aefa1b247",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-codex-skills": {
+      "fingerprint": "c6dd6e130295d5696de1431d1db550c8c8504f616dfdde4bb794f1e649d501f1",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-browser-game-arcade": {
+      "fingerprint": "799ae57f7c60a734b1a8cfc6086d5b809eb7594d775a65e28ddba49f5b54b7dc",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-browser-game-arcade": {
+      "fingerprint": "71b2f295d3826a47ebf31233cd4e7a420c32847df1b8d80571a879b72b29bfac",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-harvest-valley-lite": {
+      "fingerprint": "1f165fc8440050edd1a30c2a9dcb129dfe71dffcc08e2c5b27c426be97e323e9",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-harvest-valley-lite": {
+      "fingerprint": "69093f8c30c6703d8ab6ecf75d39228e039174c8867054c1af11a4cfc9820f86",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-math-conjectures": {
+      "fingerprint": "b12991708069b52d7bb444cf07d9dcf4533714a6e51f31b331619f05834bb63d",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-math-conjectures": {
+      "fingerprint": "2f936a9a791e7acf757117ba7c077602501f8bb46423cae74de6bde77d2b6ce8",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-verify-authenticity": {
+      "fingerprint": "d4c2a472d929a92a2880c7ef3e680b971743e7a730c1ede80c0404fb1cbf63d1",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-verify-authenticity": {
+      "fingerprint": "ce5b5ae0d93f46e29cc3c0a349f25ac3f2c0fde4ed9eaa7d7f44b6f542a893b9",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "metadata-hrniux": {
+      "fingerprint": "948edbb35b73b781314bc25fff38fae5f5ed0b1ba8d2ffa69bdf9e0b8aa22f2b",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "topics-hrniux": {
+      "fingerprint": "5f23d9c907326384a216b946a218fb35cca83eb1338e3f5aeaaccf93e1e4d465",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "profile-bio": {
+      "fingerprint": "6dbb801af07f986c58cd316473103b019f1e31c58f283e63249f6d082af3176f",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-spring-projects--spring-ai": {
+      "fingerprint": "8fe3e2cd411f2bde2422b4347c8f249cbed469ab9cdd5f61533df0b881a67800",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-ollama--ollama": {
+      "fingerprint": "493fe1389ea5a5092c104330a3f50e8d8a8096c2a4a3e453b98e7de5ab9a85c6",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-promptfoo--promptfoo": {
+      "fingerprint": "165028d6a526e47e7f08a4b8f2710881a73905f449d6f72f70f4a4d42d969668",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-langchain-ai--langgraph": {
+      "fingerprint": "70738d992f7a7f15a2a2c1807e2c5b8b9b9d3dc87e655fa7c5092939476433b8",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-docling-project--docling": {
+      "fingerprint": "db556c50672d4d3b828a8cdc8f619d0a6449aa19c1a7a913ded27aeecd8197d0",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-qdrant--qdrant": {
+      "fingerprint": "d1add07f4c24db1e1cc7b8e531d678cceee3c7a9683ba42dc5c84780955029a6",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-modelcontextprotocol--java-sdk": {
+      "fingerprint": "acefd94403a7962f91ccb410522c4967d4f40c06e001c616a1a150106b406416",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-ggml-org--llama-cpp": {
+      "fingerprint": "fe8294807b0839a6ab7f22149b930484fdf79f3970f08e259c995ffaec3ed458",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-huggingface--transformers": {
+      "fingerprint": "ef50f504d3420c1522052a128c451f5c875eb85c3772a0d46665cd5dc908d421",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-langchain4j--langchain4j": {
+      "fingerprint": "eccc6f7f8e797f041048019758ef4cf6bbfb367230f97298cc88e1d1df1f6cff",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-ml-explore--mlx-lm": {
+      "fingerprint": "a23141d229aaf47cd0b8f3603dcc8a8a21ea7e1fd657b4595fb669a9dbe0892a",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-deepset-ai--haystack": {
+      "fingerprint": "a625eeb453d7ad6e3b2c7698271a5e6a005a6da6d6360f33d46e86eed89d4042",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-huggingface--text-embeddings-inference": {
+      "fingerprint": "e50ccb34bdd20e968d2b0a45b8e12b25cf8bc8a8f5f7535714f16143217983ec",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-vllm-project--vllm": {
+      "fingerprint": "6420bf77562aa29d680d9ab6f49b58eb3fc82ee71005c46392d4a74a467d3fcd",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-pytorch--pytorch": {
+      "fingerprint": "5e0023b01683285f79b5fd9136fae88bd4cc434e84ee64d463f6a8169dd883d1",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-microsoft--markitdown": {
+      "fingerprint": "510cdafadafc9ca24d2074cb97f0849239c18459101a1eba06ccdfee626c05ed",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-openai--openai-agents-python": {
+      "fingerprint": "556d2615553f9db96da1281f7de534da9ce83d2d02eae6f07984d93198e9beb7",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-gradio-app--gradio": {
+      "fingerprint": "371c6576846646789b592576bad7809c1da81fdbe2f899aba22b549e116bc2a8",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-openai--openai-cookbook": {
+      "fingerprint": "b64c039ce451d689b6d9aedf283519e1e3e87cbb8bb3d33f67f9ff9372833dea",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "star-vibrantlabsai--ragas": {
+      "fingerprint": "8732f68a272b65c7b804cf101d8f383074dfcb2589888a4fe57e03383cdd5a02",
+      "status": "blocked",
+      "reason": "permission_denied"
+    },
+    "pin-1": {
+      "fingerprint": "9ad5505f5b7c0ea96f94e0b674364b4792249a838d6353d8c9c03135efbbbbf2",
+      "status": "manual",
+      "reason": "manual_action_required"
+    },
+    "pin-2": {
+      "fingerprint": "4246ca20e8f50fd7c4d5e7ccf57b40f02b3e062d7a2e6c805e4665c28a1b0c10",
+      "status": "manual",
+      "reason": "manual_action_required"
+    },
+    "pin-3": {
+      "fingerprint": "89aa6c73a408373adc2a1bfd296d78d3a436c8a354319106b54ac93a0a42dfa7",
+      "status": "manual",
+      "reason": "manual_action_required"
+    },
+    "pin-4": {
+      "fingerprint": "223a83fc52d3cbaa59b8d6fc6999d9525b8562801667b3a796a451646763c24e",
+      "status": "manual",
+      "reason": "manual_action_required"
+    },
+    "pin-5": {
+      "fingerprint": "c726780be2313c8e52862daae536875d97c83cee79898f4111d9f7ddae7ce226",
+      "status": "manual",
+      "reason": "manual_action_required"
+    },
+    "pin-6": {
+      "fingerprint": "d0d73962bcf35f4893c5ff7de6fde0423540d0dc22d5e678525724077949f1e5",
+      "status": "manual",
+      "reason": "manual_action_required"
+    },
+    "metadata-github-studio": {
+      "fingerprint": "7821d2d14537e9ddc217c9cebde6b6bc379e92ce10af24ee48f562e8d86665d4",
+      "status": "pending",
+      "reason": "dependency_incomplete"
+    }
+  }
+}
