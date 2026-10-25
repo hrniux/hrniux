@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "owner": "hrniux",
+  "positioning": "Java / Spring 后端 · 可解释 AI Agent / RAG / MCP",
+  "profile_source": "profile/README.md",
+  "project_storage": "https://github.com/hrniux/hrniux/tree/github-studio",
+  "proposed_repository": "hrniux/github-studio",
+  "proposed_pins": [
+    {
+      "position": 1,
+      "repository": "hrniux/insurance-underwriting-agent"
+    },
+    {
+      "position": 2,
+      "repository": "hrniux/spring-boot-lab"
+    },
+    {
+      "position": 3,
+      "repository": "hrniux/codex-skills"
+    },
+    {
+      "position": 4,
+      "repository": "hrniux/browser-game-arcade"
+    },
+    {
+      "position": 5,
+      "repository": "hrniux/harvest-valley-lite"
+    },
+    {
+      "position": 6,
+      "repository": "hrniux/math-conjectures"
+    }
+  ],
+  "note": "proposed_pins 是UI待办，不代表已经置顶。仅保存公开仓库。"
+}

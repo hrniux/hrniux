@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">hrniu — Java / Spring · Explainable agents</title>
+  <desc id="desc">An original blue and teal banner. A small connected diagram follows tools through rules to evidence and replay.</desc>
+  <rect width="1200" height="260" rx="18" fill="#F5F8FA"/>
+  <path d="M54 38H1146" stroke="#D9E4E9"/>
+  <rect x="54" y="33" width="40" height="10" rx="5" fill="#008A83"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="54" y="110" font-size="61" font-weight="700" letter-spacing="-2" fill="#102B46">hrniu<tspan fill="#008A83">.</tspan></text>
+    <text x="55" y="153" font-size="25" font-weight="500" fill="#102B46">Java / Spring · Explainable agents</text>
+    <text x="56" y="213" font-size="14" letter-spacing="2.2" fill="#52677B">RAG / MCP / RULES / REPLAY</text>
+    <text x="1146" y="70" text-anchor="end" font-size="12" letter-spacing="1.6" fill="#52677B">FROM QUESTION TO EVIDENCE</text>
+    <path d="M764 132H789M914 132H939" stroke="#008A83" stroke-width="2"/>
+    <path d="M783 128L789 132L783 136M933 128L939 132L933 136" stroke="#008A83" stroke-width="2" fill="none"/>
+    <rect x="638" y="96" width="126" height="74" rx="10" fill="#FFFFFF" stroke="#D9E4E9"/>
+    <rect x="789" y="96" width="125" height="74" rx="10" fill="#FFFFFF" stroke="#D9E4E9"/>
+    <rect x="939" y="96" width="207" height="74" rx="10" fill="#E0F3F0" stroke="#008A83"/>
+    <text x="655" y="119" font-size="10" letter-spacing="1.4" fill="#52677B">01</text>
+    <text x="806" y="119" font-size="10" letter-spacing="1.4" fill="#52677B">02</text>
+    <text x="956" y="119" font-size="10" letter-spacing="1.4" fill="#52677B">03</text>
+    <text x="655" y="148" font-size="18" font-weight="600" fill="#102B46">Tools</text>
+    <text x="806" y="148" font-size="18" font-weight="600" fill="#102B46">Rules</text>
+    <text x="956" y="148" font-size="18" font-weight="600" fill="#102B46">Evidence + replay</text>
+    <path d="M638 202H1146" stroke="#D9E4E9"/>
+    <circle cx="644" cy="213" r="3" fill="#008A83"/>
+    <text x="657" y="218" font-size="13" fill="#52677B">Readable decisions. Runnable examples.</text>
+  </g>
+</svg>

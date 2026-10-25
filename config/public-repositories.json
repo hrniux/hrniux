@@ -1,0 +1,155 @@
+{
+  "checked_on": "2026-10-25",
+  "scope": "Public repositories only; snapshot before proposed updates",
+  "repositories": [
+    {
+      "repository": "hrniux/browser-game-arcade",
+      "url": "https://github.com/hrniux/browser-game-arcade",
+      "default_branch": "main",
+      "description": "A browser-native arcade of mini games, pixel experiments, and interactive experiences built with vanilla JavaScript.",
+      "homepage": "https://hrniux.github.io/browser-game-arcade/",
+      "topics": [
+        "browser-game",
+        "canvas",
+        "creative-coding",
+        "frontend",
+        "game-dev",
+        "html5",
+        "html5-games",
+        "interactive-demo",
+        "javascript",
+        "javascript-games",
+        "mini-game",
+        "opensource",
+        "pixel-art",
+        "vanilla-js",
+        "web-experiment"
+      ],
+      "archived": false,
+      "visibility": "public",
+      "license": "MIT",
+      "last_push": "2026-10-25T05:04:09Z"
+    },
+    {
+      "repository": "hrniux/codex-skills",
+      "url": "https://github.com/hrniux/codex-skills",
+      "default_branch": "main",
+      "description": "Reusable Codex skills for practical local workflows, automation, and developer tooling.",
+      "homepage": "",
+      "topics": [
+        "automation",
+        "claude-code",
+        "codex",
+        "developer-tools"
+      ],
+      "archived": false,
+      "visibility": "public",
+      "license": null,
+      "last_push": "2026-10-25T05:01:10Z"
+    },
+    {
+      "repository": "hrniux/harvest-valley-lite",
+      "url": "https://github.com/hrniux/harvest-valley-lite",
+      "default_branch": "main",
+      "description": "A compact Stardew Valley-inspired browser farming game built with vanilla Canvas.",
+      "homepage": "",
+      "topics": [
+        "browser-game",
+        "canvas",
+        "game",
+        "javascript",
+        "vite"
+      ],
+      "archived": false,
+      "visibility": "public",
+      "license": "MIT",
+      "last_push": "2026-10-25T05:04:11Z"
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "url": "https://github.com/hrniux/insurance-underwriting-agent",
+      "default_branch": "main",
+      "description": "Explainable Java property-insurance underwriting agent with RAG, deterministic rules, MCP tools, and auditable workflows.",
+      "homepage": "",
+      "topics": [
+        "ai-agents",
+        "auditability",
+        "explainable-ai",
+        "java",
+        "mcp",
+        "rag",
+        "spring-ai",
+        "spring-boot"
+      ],
+      "archived": false,
+      "visibility": "public",
+      "license": null,
+      "last_push": "2026-10-25T05:02:02Z"
+    },
+    {
+      "repository": "hrniux/hrniux",
+      "url": "https://github.com/hrniux/hrniux",
+      "default_branch": "main",
+      "description": "GitHub profile for hrniu — explainable agent systems, browser-native products, and practical developer tooling.｜hrniu 的 GitHub 主页：可解释智能体、浏览器原生产品与实用开发工具。",
+      "homepage": "https://hrniux.github.io/browser-game-arcade/",
+      "topics": [
+        "agent-systems",
+        "browser-games",
+        "developer-portfolio",
+        "developer-tools",
+        "github-profile",
+        "profile-readme"
+      ],
+      "archived": false,
+      "visibility": "public",
+      "license": null,
+      "last_push": "2026-10-25T04:54:40Z"
+    },
+    {
+      "repository": "hrniux/spring-boot-lab",
+      "url": "https://github.com/hrniux/spring-boot-lab",
+      "default_branch": "master",
+      "description": "Spring Boot laboratory for Java 21 web APIs, backend patterns, and focused framework experiments.",
+      "homepage": "",
+      "topics": [
+        "backend",
+        "java",
+        "learning",
+        "spring-boot"
+      ],
+      "archived": false,
+      "visibility": "public",
+      "license": null,
+      "last_push": "2026-10-25T04:53:04Z"
+    },
+    {
+      "repository": "hrniux/verify-authenticity",
+      "url": "https://github.com/hrniux/verify-authenticity",
+      "default_branch": "main",
+      "description": null,
+      "homepage": "",
+      "topics": [],
+      "archived": false,
+      "visibility": "public",
+      "license": null,
+      "last_push": "2026-10-25T05:01:12Z"
+    },
+    {
+      "repository": "hrniux/math-conjectures",
+      "url": "https://github.com/hrniux/math-conjectures",
+      "default_branch": "main",
+      "description": "世界著名数学猜想的精确陈述与通俗解释 | Famous mathematical conjectures, precisely stated and simply explained",
+      "homepage": "",
+      "topics": [
+        "conjectures",
+        "math",
+        "mathematics",
+        "number-theory"
+      ],
+      "archived": false,
+      "visibility": "public",
+      "license": "MIT",
+      "last_push": "2026-10-25T05:02:04Z"
+    }
+  ]
+}

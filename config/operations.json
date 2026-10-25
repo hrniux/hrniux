@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "owner": "hrniux",
+  "public_star_allowlist": [
+    "spring-projects/spring-ai",
+    "ollama/ollama",
+    "promptfoo/promptfoo",
+    "langchain-ai/langgraph",
+    "docling-project/docling",
+    "qdrant/qdrant",
+    "modelcontextprotocol/java-sdk",
+    "ggml-org/llama.cpp",
+    "huggingface/transformers",
+    "langchain4j/langchain4j",
+    "ml-explore/mlx-lm",
+    "deepset-ai/haystack",
+    "huggingface/text-embeddings-inference",
+    "vllm-project/vllm",
+    "pytorch/pytorch",
+    "microsoft/markitdown",
+    "openai/openai-agents-python",
+    "gradio-app/gradio",
+    "openai/openai-cookbook",
+    "vibrantlabsai/ragas"
+  ],
+  "operations": [
+    {
+      "id": "create-github-studio",
+      "kind": "create_repository",
+      "target": "hrniux/github-studio",
+      "desired": {
+        "private": false
+      }
+    },
+    {
+      "id": "metadata-insurance-underwriting-agent",
+      "kind": "repo_metadata",
+      "target": "hrniux/insurance-underwriting-agent",
+      "desired": {
+        "description": "Explainable Java underwriting demo: RAG, deterministic rules, MCP tools, human review, and auditable decision replay."
+      }
+    },
+    {
+      "id": "topics-insurance-underwriting-agent",
+      "kind": "repo_topics",
+      "target": "hrniux/insurance-underwriting-agent",
+      "desired": {
+        "topics": [
+          "java",
+          "spring-boot",
+          "spring-ai",
+          "ai-agents",
+          "rag",
+          "mcp",
+          "auditability",
+          "explainable-ai"
+        ]
+      }
+    },
+    {
+      "id": "metadata-spring-boot-lab",
+      "kind": "repo_metadata",
+      "target": "hrniux/spring-boot-lab",
+      "desired": {
+        "description": "Java 21 / Spring Boot experiments with REST APIs, validation, ProblemDetail, and focused backend tests."
+      }
+    },
+    {
+      "id": "topics-spring-boot-lab",
+      "kind": "repo_topics",
+      "target": "hrniux/spring-boot-lab",
+      "desired": {
+        "topics": [
+          "java",
+          "spring-boot",
+          "rest-api",
+          "backend",
+          "validation",
+          "learning"
+        ]
+      }
+    },
+    {
+      "id": "metadata-codex-skills",
+      "kind": "repo_metadata",
+      "target": "hrniux/codex-skills",
+      "desired": {
+        "description": "Reusable Codex skills for focused problem solving, macOS Git HTTPS credentials, and local developer workflows."
+      }
+    },
+    {
+      "id": "topics-codex-skills",
+      "kind": "repo_topics",
+      "target": "hrniux/codex-skills",
+      "desired": {
+        "topics": [
+          "codex",
+          "claude-code",
+          "agent-skills",
+          "automation",
+          "developer-tools"
+        ]
+      }
+    },
+    {
+      "id": "metadata-browser-game-arcade",
+      "kind": "repo_metadata",
+      "target": "hrniux/browser-game-arcade",
+      "desired": {
+        "description": "Browser-native JavaScript and Canvas games with a shared arcade, playable demos, and focused verification."
+      }
+    },
+    {
+      "id": "topics-browser-game-arcade",
+      "kind": "repo_topics",
+      "target": "hrniux/browser-game-arcade",
+      "desired": {
+        "topics": [
+          "browser-game",
+          "javascript",
+          "canvas",
+          "vanilla-js",
+          "creative-coding",
+          "pixel-art",
+          "interactive-demo"
+        ]
+      }
+    },
+    {
+      "id": "metadata-harvest-valley-lite",
+      "kind": "repo_metadata",
+      "target": "hrniux/harvest-valley-lite",
+      "desired": {
+        "description": "A compact Canvas farming game with planting, harvesting, upgrades, and local Vite development."
+      }
+    },
+    {
+      "id": "topics-harvest-valley-lite",
+      "kind": "repo_topics",
+      "target": "hrniux/harvest-valley-lite",
+      "desired": {
+        "topics": [
+          "browser-game",
+          "farming-game",
+          "canvas",
+          "javascript",
+          "vite",
+          "pixel-art"
+        ]
+      }
+    },
+    {
+      "id": "metadata-math-conjectures",
+      "kind": "repo_metadata",
+      "target": "hrniux/math-conjectures",
+      "desired": {
+        "description": "数学猜想与相关定理的精确陈述、通俗解释和来源索引。"
+      }
+    },
+    {
+      "id": "topics-math-conjectures",
+      "kind": "repo_topics",
+      "target": "hrniux/math-conjectures",
+      "desired": {
+        "topics": [
+          "mathematics",
+          "conjectures",
+          "number-theory",
+          "math-education",
+          "knowledge-base"
+        ]
+      }
+    },
+    {
+      "id": "metadata-verify-authenticity",
+      "kind": "repo_metadata",
+      "target": "hrniux/verify-authenticity",
+      "desired": {
+        "description": "Reproducible Java and Git experiments explaining editable identity fields and the limits of screenshot evidence."
+      }
+    },
+    {
+      "id": "topics-verify-authenticity",
+      "kind": "repo_topics",
+      "target": "hrniux/verify-authenticity",
+      "desired": {
+        "topics": [
+          "git",
+          "github",
+          "java",
+          "reproducibility",
+          "digital-evidence"
+        ]
+      }
+    },
+    {
+      "id": "metadata-hrniux",
+      "kind": "repo_metadata",
+      "target": "hrniux/hrniux",
+      "desired": {
+        "description": "Java / Spring backend engineering, explainable AI agents, and reproducible developer projects.",
+        "homepage": "https://github.com/hrniux"
+      }
+    },
+    {
+      "id": "topics-hrniux",
+      "kind": "repo_topics",
+      "target": "hrniux/hrniux",
+      "desired": {
+        "topics": [
+          "github-profile",
+          "profile-readme",
+          "developer-portfolio",
+          "java",
+          "agent-systems"
+        ]
+      }
+    },
+    {
+      "id": "profile-bio",
+      "kind": "user_profile",
+      "target": "hrniux",
+      "desired": {
+        "bio": "Java / Spring backend engineer · Explainable AI agents, RAG & MCP · Building reproducible demos and practical developer tools."
+      }
+    },
+    {
+      "id": "star-spring-projects--spring-ai",
+      "kind": "star",
+      "target": "spring-projects/spring-ai",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-ollama--ollama",
+      "kind": "star",
+      "target": "ollama/ollama",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-promptfoo--promptfoo",
+      "kind": "star",
+      "target": "promptfoo/promptfoo",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-langchain-ai--langgraph",
+      "kind": "star",
+      "target": "langchain-ai/langgraph",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-docling-project--docling",
+      "kind": "star",
+      "target": "docling-project/docling",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-qdrant--qdrant",
+      "kind": "star",
+      "target": "qdrant/qdrant",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-modelcontextprotocol--java-sdk",
+      "kind": "star",
+      "target": "modelcontextprotocol/java-sdk",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-ggml-org--llama-cpp",
+      "kind": "star",
+      "target": "ggml-org/llama.cpp",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-huggingface--transformers",
+      "kind": "star",
+      "target": "huggingface/transformers",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-langchain4j--langchain4j",
+      "kind": "star",
+      "target": "langchain4j/langchain4j",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-ml-explore--mlx-lm",
+      "kind": "star",
+      "target": "ml-explore/mlx-lm",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-deepset-ai--haystack",
+      "kind": "star",
+      "target": "deepset-ai/haystack",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-huggingface--text-embeddings-inference",
+      "kind": "star",
+      "target": "huggingface/text-embeddings-inference",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-vllm-project--vllm",
+      "kind": "star",
+      "target": "vllm-project/vllm",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-pytorch--pytorch",
+      "kind": "star",
+      "target": "pytorch/pytorch",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-microsoft--markitdown",
+      "kind": "star",
+      "target": "microsoft/markitdown",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-openai--openai-agents-python",
+      "kind": "star",
+      "target": "openai/openai-agents-python",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-gradio-app--gradio",
+      "kind": "star",
+      "target": "gradio-app/gradio",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-openai--openai-cookbook",
+      "kind": "star",
+      "target": "openai/openai-cookbook",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "star-vibrantlabsai--ragas",
+      "kind": "star",
+      "target": "vibrantlabsai/ragas",
+      "desired": {
+        "starred": true
+      }
+    },
+    {
+      "id": "pin-1",
+      "kind": "manual_pin",
+      "target": "hrniux/insurance-underwriting-agent",
+      "desired": {
+        "position": 1
+      }
+    },
+    {
+      "id": "pin-2",
+      "kind": "manual_pin",
+      "target": "hrniux/spring-boot-lab",
+      "desired": {
+        "position": 2
+      }
+    },
+    {
+      "id": "pin-3",
+      "kind": "manual_pin",
+      "target": "hrniux/codex-skills",
+      "desired": {
+        "position": 3
+      }
+    },
+    {
+      "id": "pin-4",
+      "kind": "manual_pin",
+      "target": "hrniux/browser-game-arcade",
+      "desired": {
+        "position": 4
+      }
+    },
+    {
+      "id": "pin-5",
+      "kind": "manual_pin",
+      "target": "hrniux/harvest-valley-lite",
+      "desired": {
+        "position": 5
+      }
+    },
+    {
+      "id": "pin-6",
+      "kind": "manual_pin",
+      "target": "hrniux/math-conjectures",
+      "desired": {
+        "position": 6
+      }
+    },
+    {
+      "id": "metadata-github-studio",
+      "kind": "repo_metadata",
+      "target": "hrniux/github-studio",
+      "desired": {
+        "description": "A reproducible GitHub portfolio workspace with profile sources, public project catalog, and resumable operations."
+      },
+      "depends_on": [
+        "create-github-studio"
+      ]
+    }
+  ]
+}
