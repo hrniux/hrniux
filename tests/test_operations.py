@@ -30,7 +30,7 @@ class PublicGitHub:
         self.login = "hrniux"
         self.writes = []
         self.values = {"description": "Old description", "homepage": None, "private": False,
-                       "topics": [], "bio": "old", "full_name": "hrniux/demo"}
+                       "topics": [], "bio": "old"}
         self.error = None
         self.mismatch = False
 
@@ -46,7 +46,10 @@ class PublicGitHub:
             return {}
         if endpoint.endswith("/topics"):
             return {"names": self.values.get("names", [])}
-        return copy.deepcopy(self.values)
+        result = copy.deepcopy(self.values)
+        if endpoint.startswith("repos/"):
+            result.setdefault("full_name", endpoint[len("repos/"):])
+        return result
 
 
 class EngineTests(unittest.TestCase):
@@ -144,6 +147,37 @@ class EngineTests(unittest.TestCase):
         self.assertEqual(result[0]["status"], "failed")
         self.assertEqual(self.gh.writes, [])
         self.assertNotIn("secret", json.dumps(result))
+
+    def test_canonical_repository_mismatch_or_missing_name_prevents_all_writes(self):
+        for canonical in ("someone-else/repo", None, 42, "__missing__"):
+            for kind, target, desired in (
+                ("repo_metadata", "hrniux/demo", {"description": "new"}),
+                ("repo_topics", "hrniux/demo", {"topics": ["java"]}),
+                ("star", "public/repo0", {"starred": True}),
+                ("create_repository", "hrniux/github-studio", {"private": False}),
+            ):
+                with self.subTest(canonical=canonical, kind=kind):
+                    self.gh = PublicGitHub()
+                    self.gh.values["full_name"] = canonical
+                    if canonical == "__missing__":
+                        original_api = self.gh.api
+                        def without_identity(endpoint, method="GET", payload=None):
+                            result = original_api(endpoint, method, payload)
+                            if isinstance(result, dict):
+                                result.pop("full_name", None)
+                            return result
+                        self.gh.api = without_identity
+                    config = configuration(operation("canonical", kind, target, desired))
+                    rows = self.engine(config).apply()
+                    self.assertEqual(rows[0]["status"], "failed")
+                    self.assertEqual(self.gh.writes, [])
+                    self.assertNotIn("someone-else", json.dumps(rows))
+                    self.assertNotIn("someone-else", self.state.read_text())
+
+    def test_canonical_repository_case_difference_is_accepted(self):
+        self.gh.values["full_name"] = "HRNIUX/DEMO"
+        self.assertEqual(self.engine().apply()[0]["status"], "applied")
+        self.assertEqual(self.gh.values["description"], "New description")
 
     def test_topics_profile_and_star_use_verified_public_endpoints(self):
         config = configuration(operation("topics", "repo_topics", desired={"topics": ["java", "spring-boot"]}),

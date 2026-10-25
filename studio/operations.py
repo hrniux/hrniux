@@ -182,6 +182,9 @@ class Engine:
         repo = self.github.api("repos/" + target)
         if not isinstance(repo, dict) or repo.get("private") is not False:
             raise OperationError(None, "public_repository_required")
+        canonical = repo.get("full_name")
+        if not isinstance(canonical, str) or canonical.lower() != target.lower():
+            raise OperationError(None, "repository_identity_mismatch")
         return repo
 
     def _execute(self, op):
@@ -260,4 +263,4 @@ class Engine:
 
 SAFE_REASONS = {"not_applied", "manual_action_required", "permission_denied", "request_failed",
                 "request_timeout", "client_unavailable", "invalid_response", "public_repository_required",
-                "verification_mismatch", "verified", "dependency_incomplete"}
+                "verification_mismatch", "verified", "dependency_incomplete", "repository_identity_mismatch"}
