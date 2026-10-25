@@ -7,7 +7,7 @@
     "repository": "hrniux/hrniux",
     "branch": "main",
     "verified": true,
-    "commit": "8ec227331fb11bffea9f92d1bace30b5c36d0eeb"
+    "commit": "e9405e0df42f2f2406e0157942c9df275445225b"
   },
   "project": {
     "name": "GitHub Studio",
@@ -16,13 +16,13 @@
     "independent_repository": "hrniux/github-studio",
     "independent_repository_created": false,
     "create_status": "blocked_403",
-    "engine_code_commit": "9a09873"
+    "engine_code_commit": "733c1081dc2e044109fecfac25d7414621ff3a39"
   },
   "documentation_fixes": [
     {
       "repository": "hrniux/insurance-underwriting-agent",
-      "change": "Use existing Maven Wrapper and require complete JDK21; no business code changes.",
-      "commit": "0052d1df96a4288cfee31945af43c6c5759d414a"
+      "change": "First-run scenario and core-source navigation; consistent Maven Wrapper commands across README and three guides.",
+      "commit": "779bc17b9ab54d1c89fc36ea6c912a02c966a818"
     },
     {
       "repository": "hrniux/verify-authenticity",
@@ -34,7 +34,7 @@
     {
       "repository": "hrniux/hrniux",
       "path": "README.md",
-      "blob_sha": "fbb9fab99975bdb3096fea66c02dafafb69dc520",
+      "blob_sha": "b2b46d8619fb1f3f2157c369f9abd5f949ccf367",
       "verified": true
     },
     {
@@ -52,7 +52,25 @@
     {
       "repository": "hrniux/insurance-underwriting-agent",
       "path": "README.md",
-      "blob_sha": "5947fa8a52432eda26301a4bd288e85d292ff8dd",
+      "blob_sha": "b58770b677df705e04bdb1d8f07d724c1b48c334",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "path": "docs/DEMO_DATA_GUIDE.md",
+      "blob_sha": "d07b29cbf2781e156c33b5d1173ae481042fb65e",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "path": "docs/API_EXAMPLES.md",
+      "blob_sha": "d3b799f1e62aacd9b1607f4488a3f06558b14781",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "path": "docs/INTERVIEW_GUIDE.md",
+      "blob_sha": "806c8a444d435e2cfaaaa180b4a0dbb87f737cd0",
       "verified": true
     },
     {
@@ -73,17 +91,32 @@
     "note": "Creation and 20 Stars were seeded from previously observed permission denials; this run also confirmed 403 for 16 metadata/topics operations and bio. UI pins have no supported API in this tool."
   },
   "verification": {
-    "python_behavior_tests": 14,
+    "python_behavior_tests": 25,
     "profile_themes_rendered_and_inspected": [
       "light",
       "dark"
     ],
     "svg_xml": true,
     "code_review": "pass_after_canonical_repository_identity_fix",
-    "private_repository_information_published": false
+    "private_repository_information_published": false,
+    "maintenance_review": "PASS: read-only audit, state validation, report path guards",
+    "tested_platform": "Linux"
   },
   "draft_pr": {
     "url": "https://github.com/hrniux/insurance-underwriting-agent/pull/2",
     "state_at_check": "open,draft,unmerged"
+  },
+  "checked_at_utc": "2026-10-25T06:06:15.443380Z",
+  "remote_audit": {
+    "report": "reports/remote-audit.json",
+    "summary": "reports/STATUS.md",
+    "counts": {
+      "matches": 1,
+      "differs": 16,
+      "missing": 2,
+      "unavailable": 20,
+      "manual": 6
+    },
+    "checkpoint_unchanged": true
   }
 }

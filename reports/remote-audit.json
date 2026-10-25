@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "checked_at_utc": "2026-10-25T06:03:19.285074Z",
+  "config_fingerprint": "3e63e4c4f8bb649bcaa146e03cc3177055de1e69ae7c1f0e95739a38bb83e583",
+  "counts": {
+    "matches": 1,
+    "differs": 16,
+    "missing": 2,
+    "unavailable": 20,
+    "manual": 6
+  },
+  "operations": [
+    {
+      "id": "create-github-studio",
+      "kind": "create_repository",
+      "target": "hrniux/github-studio",
+      "local_status": "blocked",
+      "remote_status": "missing",
+      "reason": "not_found"
+    },
+    {
+      "id": "metadata-insurance-underwriting-agent",
+      "kind": "repo_metadata",
+      "target": "hrniux/insurance-underwriting-agent",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-insurance-underwriting-agent",
+      "kind": "repo_topics",
+      "target": "hrniux/insurance-underwriting-agent",
+      "local_status": "blocked",
+      "remote_status": "matches",
+      "reason": "observed_match"
+    },
+    {
+      "id": "metadata-spring-boot-lab",
+      "kind": "repo_metadata",
+      "target": "hrniux/spring-boot-lab",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-spring-boot-lab",
+      "kind": "repo_topics",
+      "target": "hrniux/spring-boot-lab",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "metadata-codex-skills",
+      "kind": "repo_metadata",
+      "target": "hrniux/codex-skills",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-codex-skills",
+      "kind": "repo_topics",
+      "target": "hrniux/codex-skills",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "metadata-browser-game-arcade",
+      "kind": "repo_metadata",
+      "target": "hrniux/browser-game-arcade",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-browser-game-arcade",
+      "kind": "repo_topics",
+      "target": "hrniux/browser-game-arcade",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "metadata-harvest-valley-lite",
+      "kind": "repo_metadata",
+      "target": "hrniux/harvest-valley-lite",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-harvest-valley-lite",
+      "kind": "repo_topics",
+      "target": "hrniux/harvest-valley-lite",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "metadata-math-conjectures",
+      "kind": "repo_metadata",
+      "target": "hrniux/math-conjectures",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-math-conjectures",
+      "kind": "repo_topics",
+      "target": "hrniux/math-conjectures",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "metadata-verify-authenticity",
+      "kind": "repo_metadata",
+      "target": "hrniux/verify-authenticity",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-verify-authenticity",
+      "kind": "repo_topics",
+      "target": "hrniux/verify-authenticity",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "metadata-hrniux",
+      "kind": "repo_metadata",
+      "target": "hrniux/hrniux",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "topics-hrniux",
+      "kind": "repo_topics",
+      "target": "hrniux/hrniux",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "profile-bio",
+      "kind": "user_profile",
+      "target": "hrniux",
+      "local_status": "blocked",
+      "remote_status": "differs",
+      "reason": "observed_difference"
+    },
+    {
+      "id": "star-spring-projects--spring-ai",
+      "kind": "star",
+      "target": "spring-projects/spring-ai",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-ollama--ollama",
+      "kind": "star",
+      "target": "ollama/ollama",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-promptfoo--promptfoo",
+      "kind": "star",
+      "target": "promptfoo/promptfoo",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-langchain-ai--langgraph",
+      "kind": "star",
+      "target": "langchain-ai/langgraph",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-docling-project--docling",
+      "kind": "star",
+      "target": "docling-project/docling",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-qdrant--qdrant",
+      "kind": "star",
+      "target": "qdrant/qdrant",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-modelcontextprotocol--java-sdk",
+      "kind": "star",
+      "target": "modelcontextprotocol/java-sdk",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-ggml-org--llama-cpp",
+      "kind": "star",
+      "target": "ggml-org/llama.cpp",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-huggingface--transformers",
+      "kind": "star",
+      "target": "huggingface/transformers",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-langchain4j--langchain4j",
+      "kind": "star",
+      "target": "langchain4j/langchain4j",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-ml-explore--mlx-lm",
+      "kind": "star",
+      "target": "ml-explore/mlx-lm",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-deepset-ai--haystack",
+      "kind": "star",
+      "target": "deepset-ai/haystack",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-huggingface--text-embeddings-inference",
+      "kind": "star",
+      "target": "huggingface/text-embeddings-inference",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-vllm-project--vllm",
+      "kind": "star",
+      "target": "vllm-project/vllm",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-pytorch--pytorch",
+      "kind": "star",
+      "target": "pytorch/pytorch",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-microsoft--markitdown",
+      "kind": "star",
+      "target": "microsoft/markitdown",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-openai--openai-agents-python",
+      "kind": "star",
+      "target": "openai/openai-agents-python",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-gradio-app--gradio",
+      "kind": "star",
+      "target": "gradio-app/gradio",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-openai--openai-cookbook",
+      "kind": "star",
+      "target": "openai/openai-cookbook",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "star-vibrantlabsai--ragas",
+      "kind": "star",
+      "target": "vibrantlabsai/ragas",
+      "local_status": "blocked",
+      "remote_status": "unavailable",
+      "reason": "permission_denied"
+    },
+    {
+      "id": "pin-1",
+      "kind": "manual_pin",
+      "target": "hrniux/insurance-underwriting-agent",
+      "local_status": "manual",
+      "remote_status": "manual",
+      "reason": "manual_action_required"
+    },
+    {
+      "id": "pin-2",
+      "kind": "manual_pin",
+      "target": "hrniux/spring-boot-lab",
+      "local_status": "manual",
+      "remote_status": "manual",
+      "reason": "manual_action_required"
+    },
+    {
+      "id": "pin-3",
+      "kind": "manual_pin",
+      "target": "hrniux/codex-skills",
+      "local_status": "manual",
+      "remote_status": "manual",
+      "reason": "manual_action_required"
+    },
+    {
+      "id": "pin-4",
+      "kind": "manual_pin",
+      "target": "hrniux/browser-game-arcade",
+      "local_status": "manual",
+      "remote_status": "manual",
+      "reason": "manual_action_required"
+    },
+    {
+      "id": "pin-5",
+      "kind": "manual_pin",
+      "target": "hrniux/harvest-valley-lite",
+      "local_status": "manual",
+      "remote_status": "manual",
+      "reason": "manual_action_required"
+    },
+    {
+      "id": "pin-6",
+      "kind": "manual_pin",
+      "target": "hrniux/math-conjectures",
+      "local_status": "manual",
+      "remote_status": "manual",
+      "reason": "manual_action_required"
+    },
+    {
+      "id": "metadata-github-studio",
+      "kind": "repo_metadata",
+      "target": "hrniux/github-studio",
+      "local_status": "pending",
+      "remote_status": "missing",
+      "reason": "not_found"
+    }
+  ]
+}

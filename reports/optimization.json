@@ -1,0 +1,80 @@
+{
+  "iteration": "maintenance-audit",
+  "code_commit": "733c1081dc2e044109fecfac25d7414621ff3a39",
+  "python_behavior_tests": 25,
+  "review": "PASS",
+  "audit_report": "reports/remote-audit.json",
+  "audit_exit_code": 1,
+  "audit_exit_reason": "20 Star observations unavailable due to read permission; no write attempted",
+  "audit_counts": {
+    "matches": 1,
+    "differs": 16,
+    "missing": 2,
+    "unavailable": 20,
+    "manual": 6
+  },
+  "input_hashes_unchanged": {
+    "config": "c23c30244e2381875cce4f2fc298c4ea2f208b158405d793ab402d4436b545ce",
+    "checkpoint": "cb80b47c4a88dfeeef96427426a55fa9522df1ca1f183f71e12c62d7e67ab4c7"
+  },
+  "content_readback_checks": [
+    {
+      "repository": "hrniux/hrniux",
+      "path": "README.md",
+      "blob_sha": "b2b46d8619fb1f3f2157c369f9abd5f949ccf367",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/hrniux",
+      "path": "assets/github-studio/hero-light.svg",
+      "blob_sha": "b2a48220f98364eb63387aba8430eb98aeeaa29b",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/hrniux",
+      "path": "assets/github-studio/hero-dark.svg",
+      "blob_sha": "6b2d04ff8b52781791ed223ea41460de05d0101c",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "path": "README.md",
+      "blob_sha": "b58770b677df705e04bdb1d8f07d724c1b48c334",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "path": "docs/DEMO_DATA_GUIDE.md",
+      "blob_sha": "d07b29cbf2781e156c33b5d1173ae481042fb65e",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "path": "docs/API_EXAMPLES.md",
+      "blob_sha": "d3b799f1e62aacd9b1607f4488a3f06558b14781",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/insurance-underwriting-agent",
+      "path": "docs/INTERVIEW_GUIDE.md",
+      "blob_sha": "806c8a444d435e2cfaaaa180b4a0dbb87f737cd0",
+      "verified": true
+    },
+    {
+      "repository": "hrniux/verify-authenticity",
+      "path": "README.md",
+      "blob_sha": "092bb0d62e3966fd64f06cf85a201896c689c976",
+      "verified": true
+    }
+  ],
+  "changes": [
+    "read-only remote audit independent of local history",
+    "controlled malformed-checkpoint rejection",
+    "report/config/checkpoint path-alias protection",
+    "profile expected outcomes and direct API/testing links",
+    "flagship first-run section and eight Wrapper command fixes"
+  ],
+  "business_code_changed": false,
+  "known_denied_writes_retried": false,
+  "tested_platform": "Linux"
+}

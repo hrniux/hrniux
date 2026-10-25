@@ -25,6 +25,8 @@ python3 scripts/studio.py apply --retry-blocked --report reports/execution-summa
 
 只有 `apply` 执行远端写操作。运行前应阅读 [操作配置](config/operations.json)；`plan` 和 `status` 仅展示同一份配置对应的本地状态，不查询远端是否漂移。执行器首先核验登录账号，再执行操作；每项写入经读回比对后才记录为 `applied`。
 
+`audit` 会读取当前远端值，并保留原检查点。历史写入受阻与当前目标已经满足可以同时成立；最新观察见 [审计摘要](reports/STATUS.md)，原始去敏数据见 [审计报告](reports/remote-audit.json)。
+
 ## 当前配置
 
 45 项操作包含 20 项公开仓库 Star、16 项现有仓库描述或 Topics 更新、1 项个人 bio 更新、1 项公开仓库创建、6 项手动置顶计划，以及 1 项依赖创建成功的新仓库描述更新。这是配置数量，不代表执行成功数量。
