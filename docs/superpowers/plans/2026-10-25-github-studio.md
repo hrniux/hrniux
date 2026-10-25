@@ -36,7 +36,7 @@ Files: profile/README.md, profile/assets/github-studio/{hero-light,hero-dark}.sv
 - [ ] Validate XML and referenced assets; save report. No remote writes, no shared git commits.
 
 ### Task 3: Research, configuration and execution (controller)
-Files: config/*.json, docs/{RESEARCH,PORTFOLIO_STRATEGY,OPERATIONS}.md, reports/*.json, README.md, LICENSE, CONTRIBUTING.md, scripts/publish-project.sh.
+Files: config/*.json, docs/{RESEARCH,PORTFOLIO_STRATEGY,OPERATIONS}.md, reports/*.json, README.md, LICENSE, CONTRIBUTING.md.
 - [ ] Capture verified public snapshot and source references.
 - [ ] Write desired public metadata and queue denied create/Star plus manual pins.
 - [ ] Review source/profile, apply supported changes and preserve accurate results.
